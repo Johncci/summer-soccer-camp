@@ -47,4 +47,25 @@ This website was created to advertise a soccer camp for kids in suncroft, co. Ki
 1. CSS3
 2. HTML5
 
-### 
+## Testing
+
+### Project Bugs (During design and coding process)
+
+
+
+### Known Bugs (Existing)
+
+
+## Deployment
+
+### Forking the Github Repository
+
+### Making a local Clone
+
+
+## Credits
+
+### code
+
+
+# Acknowledgements
