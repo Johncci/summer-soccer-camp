@@ -1,3 +1,36 @@
-header {
-    background-color: red;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
+
+*{
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    color: black;
+    font-family: lato, sans-serif;
+    font-weight: 300;
+}
+
+/*-- logo and nav bar--*/
+
+h1{
+    font-family: lato, sans-serif;
+    color: gray;
+    text-transform: uppercase;
+
+}
+
+#logo{
+    Float: left;
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 300%
+}
+
+#menu{
+    float: right;
+    display: inline;
+    list-style-type: none;
 }
