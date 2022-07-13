@@ -47,13 +47,30 @@ a:hover{
     background-color: transparent;
 }
 
-/*-- main image--*/
+/*-- main image and content circle--*/
 
 .main-image{
     height: 600px;
     width: 100%;
     overflow: hidden;
+    background-color: yellow;
 }
+
+.text-content{
+    float:right;
+    border:2px solid white;
+    text-align: center;
+    height: 175px;
+    width: 175px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+    padding-top: 50px;
+    bottom: 250px;
+    right: 200px;
+    position: absolute;
+    color: black;
+}
+
 
 
 
