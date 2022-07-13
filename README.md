@@ -41,6 +41,8 @@ This website was created to advertise a soccer camp for kids in suncroft, co. Ki
 1. responsive
 2. interactive buttons
 3. Google maps
+4. fontawesome
+5. bitly for cutting code size
 
 ### Languages used
 
@@ -51,7 +53,8 @@ This website was created to advertise a soccer camp for kids in suncroft, co. Ki
 
 ### Project Bugs (During design and coding process)
 
--Encountered problem with main image enlarging page to the right.
+-Encountered problem with main image enlarging the width of the page.
+-Encountered problem with google map image enlarging the width of the page.
 
 
 
