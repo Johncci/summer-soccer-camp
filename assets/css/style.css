@@ -21,7 +21,7 @@ header{
     justify-content: space-between;
     padding: 15px;
     align-items: baseline;
-    font-family: roboto;
+    font-family: roboto, sans-serif;
     letter-spacing: 2px;
     border: 2px black solid;
 
@@ -82,15 +82,15 @@ a:hover{
 }
 
 .heading-div{
-background: greenyellow;
-width: 100%;
-display: flex;
-justify-content: center;
-padding: 15px;
-align-items: center;
-font-family: roboto, sans serif;
-letter-spacing: 2px;
-border: 2px black solid;
+    background: greenyellow;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    align-items: center;
+    font-family: roboto, sans-serif;
+    letter-spacing: 2px;
+    border: 2px black solid;
 }
 
 .left-div{
@@ -112,11 +112,13 @@ border: 2px black solid;
     color: black;
 }
 
+
+
 .list-align{
     color:  black;
     list-style-type: disc;
     font-size: 150%;
-    line-height: 40px;
+    line-height: 35px;
     width: 60%;
     
 }
@@ -128,7 +130,7 @@ border: 2px black solid;
     float: right;
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 
 }
 
@@ -137,6 +139,14 @@ border: 2px black solid;
     width: 400px;
 }
 
+iframe{
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    object-fit: contain;
+    background-color: yellow;
+    background: no-repeat center center;
+}
 
 
 
