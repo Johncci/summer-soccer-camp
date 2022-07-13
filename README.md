@@ -51,6 +51,8 @@ This website was created to advertise a soccer camp for kids in suncroft, co. Ki
 
 ### Project Bugs (During design and coding process)
 
+-Encountered problem with main image enlarging page to the right.
+
 
 
 ### Known Bugs (Existing)
