@@ -23,6 +23,8 @@ header{
     align-items: baseline;
     font-family: roboto;
     letter-spacing: 2px;
+    border: 2px black solid;
+
 }
 
 nav ul{
@@ -54,11 +56,12 @@ a:hover{
     width: 100%;
     overflow: hidden;
     background-color: yellow;
+    background: no-repeat center center;
 }
 
 .text-content{
     float:right;
-    border:2px solid white;
+    border:2px solid black;
     text-align: center;
     height: 175px;
     width: 175px;
@@ -70,6 +73,88 @@ a:hover{
     position: absolute;
     color: black;
 }
+
+/*--about us--*/
+
+.about-us{
+    height: 600px;
+
+}
+
+.heading-div{
+background: greenyellow;
+width: 100%;
+display: flex;
+justify-content: center;
+padding: 15px;
+align-items: center;
+font-family: roboto, sans serif;
+letter-spacing: 2px;
+border: 2px black solid;
+}
+
+.left-div{
+    width: 50%;
+    height: 600px;
+    background-color: white;
+    float: left; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.left-div h2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 200%;
+    color: black;
+}
+
+.list-align{
+    color:  black;
+    list-style-type: disc;
+    font-size: 150%;
+    line-height: 40px;
+    width: 60%;
+    
+}
+    
+.right-div{
+    width: 50%;
+    height: 600px;
+    background-color: white;
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center
+
+}
+
+.right-div img{
+    height: 400px;
+    width: 400px;
+}
+
+
+
+
+
+
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
 
 
 
