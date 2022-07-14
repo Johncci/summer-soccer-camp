@@ -204,20 +204,38 @@ i:hover{
 }
 
 .signup-form{
-        float:right;
-        border:2px solid black;
-        text-align: center;
-        height: 300px;
-        width: 300px;
-        background-color: whitesmoke;
-        padding-top: 20px;
-        bottom: 250px;
-        right: 200px;
-        position: absolute;
-        color: black;
-        line-height: 30px;
-        
+    border:2px solid black;
+    text-align: center;
+    height: 350px;
+    width: 300px;
+    background-color: whitesmoke;
+    padding: 20px;
+    bottom: 23%;
+    right: 39%;
+    position: absolute;
+    color: black;
+    line-height: 40px;   
 }
+
+.signup-button{
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+
+
+
+
 
 
 
