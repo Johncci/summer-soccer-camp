@@ -16,7 +16,7 @@ body{
 
 
 header{
-    background: greenyellow;
+    background: #ccf381;
     display: flex;
     justify-content: space-between;
     padding: 15px;
@@ -55,7 +55,7 @@ a:hover{
     height: 600px;
     width: 100%;
     overflow: hidden;
-    background-color: yellow;
+    background-color: #ccf381;
     background: no-repeat center center;
 }
 
@@ -66,7 +66,7 @@ a:hover{
     height: 175px;
     width: 175px;
     border-radius: 50%;
-    background-color: yellowgreen;
+    background-color: #ccf381 ;
     padding-top: 50px;
     bottom: 250px;
     right: 200px;
@@ -82,7 +82,7 @@ a:hover{
 }
 
 .heading-div{
-    background: greenyellow;
+    background-color: #ccf381;
     width: auto;
     display: flex;
     justify-content: center;
@@ -121,9 +121,9 @@ a:hover{
     color:  black;
     list-style-type: disc;
     font-size: 150%;
-    line-height: 35px;
-    width: 60%;
-    
+    line-height: 30px;
+    width: 60%; 
+    font-weight: bold;
 }
     
 .right-div{
@@ -159,11 +159,11 @@ iframe{
 .social-media{
     text-align: center;
     border: 2px solid black;
-    padding: 2%;
-    background-color: greenyellow;
+    padding: 15px;
+    background-color: #ccf381;
     list-style-type: none;
     width: 100%;
-    height: 50px;
+    height: 30px;
 }
 
 .social-media li{
@@ -171,8 +171,8 @@ iframe{
 }
 
 .social-media i{
-    padding: 5px 100px 5px 100px;
-    color: whitesmoke;
+    padding: 0 100px;
+    color: black;
     font-size: 35px;
 }
 
@@ -192,6 +192,19 @@ i:hover{
     font-family: roboto, sans-serif;
     font-size: 200%;
 }
+
+/*--sign up--*/
+
+.sign-up{
+    height: 600px;
+    width: 100%;
+    background-color: #ccf381;
+    background: no-repeat;
+    overflow: hidden;
+}
+
+
+ 
 
 
 

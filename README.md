@@ -4,6 +4,10 @@
 
 This website was created to advertise a soccer camp for kids in suncroft, co. Kildare. It's goal is to encourage parents to sign up there kids to our soccer camps.
 
+## motivation
+
+My motivation for this project is based on my own involvement with training kids from a young age. When i was growing up there was no such facilities or programs in place. I want to create something to give all children a great chance to develop there football abilities from a young age and to make new friends. I have found it is a great way to help them develop both physically and mentally.
+
 ## User Experience
 
 ### Visitor Goals
