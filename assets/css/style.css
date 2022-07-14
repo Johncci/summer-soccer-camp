@@ -159,10 +159,10 @@ iframe{
 .social-media{
     text-align: center;
     border: 2px solid black;
-    padding: 15px;
+    padding: 25px;
     background-color: #ccf381;
     list-style-type: none;
-    width: 100%;
+    width: auto;
     height: 30px;
 }
 
@@ -195,13 +195,30 @@ i:hover{
 
 /*--sign up--*/
 
-.sign-up{
+.sign-up-image{
     height: 600px;
     width: 100%;
     background-color: #ccf381;
     background: no-repeat;
     overflow: hidden;
 }
+
+.signup-form{
+        float:right;
+        border:2px solid black;
+        text-align: center;
+        height: 300px;
+        width: 300px;
+        background-color: whitesmoke;
+        padding-top: 20px;
+        bottom: 250px;
+        right: 200px;
+        position: absolute;
+        color: black;
+        line-height: 30px;
+        
+}
+
 
 
  
