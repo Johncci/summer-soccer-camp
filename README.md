@@ -59,6 +59,7 @@ My motivation for this project is based on my own involvement with training kids
 
 -Encountered problem with main image enlarging the width of the page.
 -Encountered problem with google map image enlarging the width of the page.
+-Encountered problem with placement of form over image in sign-up page ,had difficulty centering using positioning elements.
 
 
 
@@ -73,6 +74,10 @@ My motivation for this project is based on my own involvement with training kids
 
 
 ## Credits
+- used bitly.com to shorten code for google maps link and used google maps to display interactive image.
+- image on sign-up page taken from freeimages.com
+- font awesome used for social media icons.
+
 
 ### code
 

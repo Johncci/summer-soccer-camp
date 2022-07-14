@@ -14,7 +14,6 @@ body{
 
 /*-- logo and nav bar--*/
 
-
 header{
     background: #ccf381;
     display: flex;
@@ -229,7 +228,7 @@ i:hover{
 }
 
 button:hover {
-  opacity:1;
+  opacity:2;
 }
 
 
