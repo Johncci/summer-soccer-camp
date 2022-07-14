@@ -207,15 +207,24 @@ i:hover{
 }
 
 .signup-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: url(../css/images/1189883.jpg);
+    height: 80vh;
+}
+
+.signup-form form{
     border:2px solid black;
     text-align: center;
     height: 350px;
     width: 300px;
     background-color: whitesmoke;
     padding: 20px;
-    bottom: 23%;
-    right: 39%;
-    position: absolute;
+    
+    
+    
     color: black;
     line-height: 40px;   
 }
@@ -234,6 +243,24 @@ i:hover{
 button:hover {
   opacity:2;
 }
+
+/*--media queries--*/
+
+@media screen and (max-width: 400px){
+    .heading-div{
+        margin: 0;
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .left-div .right-div{
+        clear:both;
+    }
+    }
+
+
+
 
 
 
