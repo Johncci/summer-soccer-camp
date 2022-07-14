@@ -93,6 +93,8 @@ a:hover{
     font-size: 150%;
 }
 
+/*--left div text content--*/
+
 .left-div{
     width: 50%;
     height: 600px;
@@ -124,6 +126,8 @@ a:hover{
     width: 60%; 
     font-weight: bold;
 }
+
+/*--right div image--*/
     
 .right-div{
     width: 50%;
