@@ -223,6 +223,21 @@ button:hover {
   opacity:2;
 }
 
+/*--gallery--*/
+
+.gallery-photos{
+    clear: both;
+    line-height: 0;
+    column-count: 1;
+    column-gap: 0px;
+    background-color: blue;
+
+}
+
+.gallery-photos > img{
+     width: 100%;
+}
+
 /*--media queries--*/
 
 @media screen and (max-width: 400px){
