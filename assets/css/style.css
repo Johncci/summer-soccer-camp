@@ -28,7 +28,7 @@ header{
 
 nav ul{
     list-style-type: none;
-    font-size: 130%;
+    font-size: 20px;
     font-weight: bold;
     letter-spacing: 2px;
     display: flex;
@@ -76,68 +76,54 @@ a:hover{
     margin-right: 30px;
 }
 
+.heading-div{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #ccf381;
+    padding: 15px;
+}
+
 
 /*--about us--*/
 
 .about-us{
-    height: 600px;
-
-}
-
-.heading-div{
-    background-color: #ccf381;
-    width: auto;
+    height: 700px;
     display: flex;
-    justify-content: center;
-    padding: 15px;
-    align-items: center;
-    font-family: roboto, sans-serif;
-    letter-spacing: 2px;
-    border: 2px black solid;
-    font-size: 150%;
+    flex-direction: row;
+    width: 100%;
+    border-bottom: #ccf381;
+    
 }
+
 
 /*--left div text content--*/
 
 .left-div{
+    background-color: whitesmoke;
     width: 50%;
-    height: 600px;
-    background-color: whitesmoke; 
-    display: flex;
-    flex-direction: column;
-    border-bottom: 2px solid black;
-    padding-left: 30px;
-
 }
-
-.left-div h2{
-    width: 100%;
-    color: black;
-
-}
-
 
 
 .list-align{
     color:  black;
     list-style-type: disc;
-    font-size: 150%;
+    font-size: 20px;
     line-height: 30px;
-    width: 60%; 
+    width: 50%; 
     font-weight: bold;
+
+    
 }
 
 /*--right div image--*/
     
 .right-div{
-    width: 50%;
-    height: 600px;
     background-color: whitesmoke;
-    float: right;
     display: flex;
-    flex-direction: column;
-    border-bottom: 2px solid black;
-
+    align-items: center;
+    justify-content: center;
+    width: 50%;
 }
 
 .right-div img{
@@ -150,10 +136,9 @@ a:hover{
 iframe{
     height: 400px;
     width: 100%;
-    overflow: hidden;
-    object-fit: contain;
-    background-color: yellow;
-    background: no-repeat center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*--footer--*/
