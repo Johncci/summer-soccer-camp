@@ -91,8 +91,9 @@ a:hover{
     height: 700px;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: auto;
     border-bottom: #ccf381;
+    background-color: whitesmoke;
     
 }
 
@@ -100,8 +101,13 @@ a:hover{
 /*--left div text content--*/
 
 .left-div{
-    background-color: whitesmoke;
     width: 50%;
+}
+
+.left-div h2{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
 }
 
 
@@ -112,6 +118,7 @@ a:hover{
     line-height: 30px;
     width: 50%; 
     font-weight: bold;
+    padding: 20px;
 
     
 }
@@ -119,7 +126,6 @@ a:hover{
 /*--right div image--*/
     
 .right-div{
-    background-color: whitesmoke;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -139,28 +145,30 @@ iframe{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 /*--footer--*/
 
-.social-media{
-    text-align: center;
-    border: 2px solid black;
-    padding: 25px;
-    background-color: #ccf381;
-    list-style-type: none;
-    width: auto;
-    height: 30px;
+
+footer{
+    background: #ccf381;
+    width: 100%;
+    padding: 30px;
+    border: 2px black solid;
 }
 
-.social-media li{
-    display: inline;
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 .social-media i{
-    padding: 0 100px;
     color: black;
-    font-size: 35px;
+    font-size: 30px;
+    
+
 }
 
 i{
@@ -168,17 +176,12 @@ i{
     text-decoration: none;
 }
 
-
 i:hover{
     color: red;
     text-decoration: none;
     background-color: transparent;
 }
 
-.social-media h2{
-    font-family: roboto, sans-serif;
-    font-size: 200%;
-}
 
 /*--sign up--*/
 
