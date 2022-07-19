@@ -226,21 +226,50 @@ button:hover {
 /*--gallery--*/
 
 .gallery-photos{
-    display: flex;
-    flex-direction: column;
-    column-count: 2;
-    clear: both;
-    overflow: hidden;
-    align-items: center;
-    background-color: #ccf381;
+ display: flex;
+ flex-direction: column;
+ clear: both;
+ line-height: 0;
+ column-count: 2;
 
 }
 
 .gallery-photos > img{
-     width: 66%;
+     width: 100%;
 }
 
 /*--media queries--*/
+
+@media screen and (max-width: 400px) {
+
+    header{
+        font-size: 20px;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        display: block;
+        list-style-type: disc;
+    }
+
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: auto;
+    }
+
+    .left-div{
+        width: 100%;
+    }
+
+    .right-div{
+        width: 100%;
+    }
+
+   
+    
+}
 
 
     
