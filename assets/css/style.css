@@ -151,7 +151,7 @@ iframe{
 
 footer{
     background: #ccf381;
-    width: 100%;
+    max-width: 100%;
     padding: 30px;
     border: 2px black solid;
 }
@@ -226,32 +226,24 @@ button:hover {
 /*--gallery--*/
 
 .gallery-photos{
+    display: flex;
+    flex-direction: column;
+    column-count: 2;
     clear: both;
-    line-height: 0;
-    column-count: 1;
-    column-gap: 0px;
-    background-color: blue;
+    overflow: hidden;
+    align-items: center;
+    background-color: #ccf381;
 
 }
 
 .gallery-photos > img{
-     width: 100%;
+     width: 66%;
 }
 
 /*--media queries--*/
 
-@media screen and (max-width: 400px){
-    .heading-div{
-        margin: 0;
-        height: 100%;
-        width: 100%;
 
-    }
-
-    .left-div .right-div{
-        clear:both;
-    }
-    }
+    
 
 
 
