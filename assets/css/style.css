@@ -231,11 +231,13 @@ button:hover {
  clear: both;
  line-height: 0;
  column-count: 2;
-
+ background-color: #ccf381;
+ max-width: 100%;
 }
 
 .gallery-photos > img{
-     width: 100%;
+     width: 50%;
+     padding-left: 25%;
 }
 
 /*--media queries--*/
