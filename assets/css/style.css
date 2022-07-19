@@ -88,7 +88,7 @@ a:hover{
 
 /*--about us--*/
 
-.about-us{
+#about-us{
     height: 700px;
     display: flex;
     flex-direction: row;
@@ -253,7 +253,7 @@ button:hover {
         list-style-type: disc;
     }
 
-    .about-us{
+    #about-us{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -283,7 +283,7 @@ header{
         list-style-type: disc;
     }
 
-    .about-us{
+    #about-us{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -313,18 +313,13 @@ header{
         list-style-type: disc;
     }
     
-    .about-us{
+    #about-us{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         height: auto;
         width: auto;
     }
-
-    .list-align {
-            
-            
-        }
     
     .left-div{
         width: 100%;
@@ -349,7 +344,7 @@ header{
                 list-style-type: disc;
     }
         
-    .about-us{
+    #about-us{
                 display: flex;
                 flex-direction: column;
                 justify-content: space-evenly;
