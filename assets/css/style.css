@@ -193,7 +193,7 @@ i:hover{
     justify-content: center;
     align-items: center;
     width: 100%;
-    background: url(../css/images/1189883.jpg);
+    background: url(../css/images/1189883\ \(1\).jpg);
     height: 80vh;
 }
 
@@ -209,8 +209,8 @@ i:hover{
 }
 
 .signup-button{
-  background-color: #04AA6D;
-  color: white;
+  background-color: #ccf381;
+  color: black;
   padding: 14px 20px;
   margin: 8px 0;
   border: none;
@@ -220,7 +220,7 @@ i:hover{
 }
 
 button:hover {
-  opacity:2;
+  opacity: .3;
 }
 
 /*--gallery--*/
