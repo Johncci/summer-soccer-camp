@@ -113,11 +113,11 @@ a:hover{
 .list-align{
     color:  black;
     list-style-type: disc;
-    font-size: 20px;
+    font-size: 28px;
     line-height: 40px;
     width: 50%; 
     font-weight: bold;
-    padding: 20px 0 0 20px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
 }
@@ -225,21 +225,17 @@ button:hover {
 
 /*--gallery--*/
 
-.gallery-photos{
- display: flex;
- flex-direction: column;
- clear: both;
- line-height: 0;
- column-count: 2;
- background-color: #ccf381;
- max-width: 100%;
+.gallery-photos2 {
+    display: flex;
+    column-count: 2;
+    background-color: #ccf381;
 }
-
-.gallery-photos > img{
-     width: 50%;
-     padding-left: 25%;
+.gallery-photos2 img{
+    width: 40%;
+    margin-left: 6.67%;
+    margin-top: 6.67%;
+    height: 600px;
 }
-
 /*--media queries--*/
 
 @media screen and (max-width: 400px) {
