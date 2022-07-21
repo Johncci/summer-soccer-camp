@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
 
-*{
+* {
     border: none;
     padding: 0;
     margin: 0;
 }
 
-body{
+body {
     color: black;
     font-family: lato, sans-serif;
     font-weight: 300;
@@ -14,7 +14,7 @@ body{
 
 /*-- logo and nav bar--*/
 
-header{
+header {
     background: #ccf381;
     display: flex;
     justify-content: space-between;
@@ -25,7 +25,7 @@ header{
     border: 2px black solid;
 }
 
-nav ul{
+nav ul {
     list-style-type: none;
     font-size: 20px;
     font-weight: bold;
@@ -35,13 +35,13 @@ nav ul{
     align-items: center;
 }
 
-a{
+a {
     color: black;
     text-decoration: none;
     padding-right: 15px;
 }
 
-a:hover{
+a:hover {
     color: red;
     text-decoration: inherit;
     background-color: transparent;
@@ -49,21 +49,21 @@ a:hover{
 
 /*-- main image and content circle--*/
 
-.main-image{
+.main-image {
     height: 600px;
     width: 100%;
     overflow: hidden;
     background-color: #ccf381;
-    background: url(../css/images/pexels-lukas-296302\ \(2\).jpg) no-repeat center center;
+    background: url(../images/pexels-lukas-296302\ \(2\).jpg) no-repeat center center;
     background-position: center;
     background-size: cover;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
+
 }
 
-.text-content{
+.text-content {
     background: #ccf381;
     height: 200px;
     width: 200px;
@@ -75,7 +75,7 @@ a:hover{
     margin-right: 30px;
 }
 
-.quote-div{
+.quote-div {
     display: flex;
     align-content: center;
     justify-content: center;
@@ -87,7 +87,7 @@ a:hover{
 
 /*--about us--*/
 
-#about-us{
+#about-us {
     height: 700px;
     display: flex;
     flex-direction: row;
@@ -98,23 +98,23 @@ a:hover{
 
 /*--left div text content--*/
 
-.left-div{
+.left-div {
     width: 50%;
 }
 
-.left-div h2{
+.left-div h2 {
     display: flex;
     justify-content: flex-start;
     font-size: 30px;
     padding: 30px 0 0 20px;
 }
 
-.list-align{
-    color:  black;
+.list-align {
+    color: black;
     list-style-type: disc;
     font-size: 28px;
     line-height: 50px;
-    width: 80%; 
+    width: 80%;
     font-weight: bold;
     padding: 50px;
     display: flex;
@@ -122,22 +122,22 @@ a:hover{
 }
 
 /*--right div image--*/
-    
-.right-div{
+
+.right-div {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
 }
 
-.right-div img{
+.right-div img {
     height: 400px;
     width: 400px;
 }
 
 /*--google map image--*/
 
-iframe{
+iframe {
     height: 400px;
     width: 100%;
     display: flex;
@@ -148,32 +148,32 @@ iframe{
 
 /*--footer--*/
 
-footer{
+footer {
     background: #ccf381;
     max-width: 100%;
     padding: 15px;
     border: 2px black solid;
 }
 
-footer .copyright{
+footer .copyright {
     display: flex;
     justify-content: center;
     font-size: 20px;
     padding: 10px;
 }
 
-.social-media{
+.social-media {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
 }
 
-.social-media i{
+.social-media i {
     color: black;
     font-size: 30px;
 }
 
-i:hover{
+i:hover {
     color: red;
     text-decoration: none;
     background-color: transparent;
@@ -181,7 +181,7 @@ i:hover{
 
 /*--sign up--*/
 
-.sign-up-image{
+.sign-up-image {
     height: 600px;
     width: 100%;
     background-color: #ccf381;
@@ -189,27 +189,27 @@ i:hover{
     overflow: hidden;
 }
 
-.signup-form{
+.signup-form {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    background: url(../css/images/1189883\ \(1\).jpg);
+    background: url(../images/1189883\ \(1\).jpg);
     height: 80vh;
 }
 
-.signup-form form{
-    border:2px solid black;
+.signup-form form {
+    border: 2px solid black;
     text-align: center;
     height: 350px;
     width: 300px;
     background-color: whitesmoke;
     padding: 20px;
     color: black;
-    line-height: 40px;   
+    line-height: 40px;
 }
 
-.signup-button{
+.signup-button {
     background-color: #ccf381;
     color: black;
     padding: 14px 20px;
@@ -228,180 +228,161 @@ button:hover {
 
 .gallery-photos2 {
     display: flex;
-    flex-direction: column;
+    padding: 40px 0;
+    flex-direction: row;
+    justify-content: center;
     background-color: whitesmoke;
+    flex-wrap: wrap;
 }
-.gallery-photos2 img{
-    width: 90%;
-    padding: 5%;
+
+.gallery-photos2 img {
+    width: 40%;
+    margin: 20px;
+    object-fit: cover;
 }
 
 /*--media queries--*/
 
 @media screen and (max-width: 400px) {
 
-    header{
+    header {
         font-size: 20px;
     }
-    nav ul{
+
+    nav ul {
         display: block;
         flex-direction: column;
         list-style-type: disc;
     }
 
-    #about-us{
+    #about-us {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        height: auto;
+        width: 100vw;
+        overflow-x: hidden;
     }
 
-    .left-div{
-        width: 100%;
-        margin-bottom: 50px;
-        }
-
-    .right-div{
+    .left-div {
         width: 100%;
         margin-bottom: 50px;
     }
-    
-  
+
+    .right-div {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .gallery-photos2 img {
+        width: 80%;
+    }
+
 
 
 }
 
 @media screen and (max-width: 576px) {
 
-header{
+    header {
         font-size: 20px;
     }
-    nav ul{
+
+    nav ul {
         display: block;
         flex-direction: column;
         list-style-type: disc;
     }
 
-    #about-us{
+    #about-us {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         height: auto;
     }
 
-    .left-div{
+    .left-div {
         width: 100%;
         margin-bottom: 50px;
     }
 
-    .right-div{
+    .right-div {
         width: 100%;
         margin-bottom: 50px;
+    }
+
+    .gallery-photos2 img {
+        width: 80%;
     }
 
 }
 
 @media screen and (max-width: 768px) {
 
-    header{
+    header {
         font-size: 20px;
     }
-    
-    nav ul{
+
+    nav ul {
         display: block;
         flex-direction: column;
         list-style-type: disc;
     }
-    
-    #about-us{
+
+    #about-us {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         height: auto;
         width: auto;
     }
-    
-    .left-div{
+
+    .left-div {
         width: 100%;
         margin-bottom: 50px;
     }
-    
-    .right-div{
+
+    .right-div {
         width: 100%;
         margin-bottom: 50px;
+    }
+
+    .gallery-photos2 img {
+        width: 80%;
     }
 
 }
-    
+
 @media screen and (max-width: 992px) {
-    
-    header{
+
+    header {
         font-size: 20px;
     }
 
-    nav ul{
+    nav ul {
         display: block;
         flex-direction: column;
         list-style-type: disc;
     }
-        
-    #about-us{
+
+    #about-us {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         height: auto;
     }
-        
-    .left-div{
+
+    .left-div {
         width: 100%;
         margin-bottom: 50px;
     }
-        
-    .right-div{
+
+    .right-div {
         width: 100%;
         margin-bottom: 50px;
+    }
+
+    .gallery-photos2 img {
+        width: 80%;
     }
 
 }
-        
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-   
-   
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-

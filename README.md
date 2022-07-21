@@ -44,10 +44,37 @@ The Summer Soccer camp is an online webapge that introduces potential clients fr
 
 * I have talked to the relevant people at home and now want to return to sign up for the camp.
 * I want to be able to contact the camp with any questions I may have.
-
+ 
 ### Frequent Visitor Goals
 
 * I want to ensure on each yearly return to the site that I can sign my children up.
+
+### Design
+
+#ccf381 Color Information
+Information
+ 
+Conversion
+ 
+Schemes
+ 
+Alternatives
+ 
+Preview
+ 
+Shades and Tints
+ 
+Tones
+ 
+Blindness Simulator
+In a RGB color space, hex #ccf381 is composed of 80% red, 95.3% green and 50.6% blue. Whereas in a CMYK color space, it is composed of 16% cyan, 0% magenta, 46.9% yellow and 4.7% black. It has a hue angle of 80.5 degrees, a saturation of 82.6% and a lightness of 72.9%. #ccf381 color hex could be obtained by blending #ffffff with #99e703. Closest websafe color is: #ccff99.
+
+#ccf381 color image
+R80G95B51
+RGB color chart
+C16M0Y47K5
+CMYK color chart
+● #ccf381 color description : Soft green.
 
 
 
