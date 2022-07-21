@@ -227,14 +227,12 @@ button:hover {
 
 .gallery-photos2 {
     display: flex;
-    column-count: 2;
+    flex-direction: column;
     background-color: #ccf381;
 }
 .gallery-photos2 img{
-    width: 40%;
-    margin-left: 6.67%;
-    margin-top: 6.67%;
-    height: 600px;
+    width: 80%;
+    padding: 10%;
 }
 /*--media queries--*/
 
@@ -265,6 +263,9 @@ button:hover {
         width: 100%;
         margin-bottom: 50px;
     }
+    
+  
+
 
 }
 
@@ -295,6 +296,10 @@ header{
         width: 100%;
         margin-bottom: 50px;
     }
+
+  
+    
+
 }
 
 @media screen and (max-width: 768px) {
@@ -326,6 +331,7 @@ header{
         width: 100%;
         margin-bottom: 50px;
     }
+
 }
     
 @media screen and (max-width: 992px) {
@@ -356,6 +362,8 @@ header{
                 width: 100%;
                 margin-bottom: 50px;
     }
+
+    
 }
         
 
