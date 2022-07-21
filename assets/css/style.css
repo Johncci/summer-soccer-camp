@@ -23,7 +23,6 @@ header{
     font-family: roboto, sans-serif;
     letter-spacing: 2px;
     border: 2px black solid;
-
 }
 
 nav ul{
@@ -211,18 +210,18 @@ i:hover{
 }
 
 .signup-button{
-  background-color: #ccf381;
-  color: black;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
+    background-color: #ccf381;
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
 }
 
 button:hover {
-  opacity: .3;
+    opacity: .3;
 }
 
 /*--gallery--*/
@@ -236,6 +235,7 @@ button:hover {
     width: 90%;
     padding: 5%;
 }
+
 /*--media queries--*/
 
 @media screen and (max-width: 400px) {
@@ -299,9 +299,6 @@ header{
         margin-bottom: 50px;
     }
 
-  
-    
-
 }
 
 @media screen and (max-width: 768px) {
@@ -339,33 +336,32 @@ header{
 @media screen and (max-width: 992px) {
     
     header{
-                font-size: 20px;
+        font-size: 20px;
     }
 
     nav ul{
-                display: block;
-                flex-direction: column;
-                list-style-type: disc;
+        display: block;
+        flex-direction: column;
+        list-style-type: disc;
     }
         
     #about-us{
-                display: flex;
-                flex-direction: column;
-                justify-content: space-evenly;
-                height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: auto;
     }
         
     .left-div{
-                width: 100%;
-                margin-bottom: 50px;
+        width: 100%;
+        margin-bottom: 50px;
     }
         
     .right-div{
-                width: 100%;
-                margin-bottom: 50px;
+        width: 100%;
+        margin-bottom: 50px;
     }
 
-    
 }
         
 

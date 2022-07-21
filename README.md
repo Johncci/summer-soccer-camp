@@ -1,30 +1,56 @@
 <h1 align="center">Kids Summer Soccer Camp</h1>
 
-{View live project here} (url to be pasted)
+<img src="assets/css/images/Am i responsive.png" alt="image from Am i responsive website">
 
-This website was created to advertise a soccer camp for kids in suncroft, co. Kildare. It's goal is to encourage parents to sign up there kids to our soccer camps.
 
-## motivation
-
-My motivation for this project is based on my own involvement with training kids from a young age. When i was growing up there was no such facilities or programs in place. I want to create something to give all children a great chance to develop there football abilities from a young age and to make new friends. I have found it is a great way to help them develop both physically and mentally.
+## Motivation
+This website was created to advertise a soccer camp for kids in suncroft, co. Kildare. It's goal is to encourage parents to sign up there kids to our soccer camps.My motivation for this project is based on my own involvement with training kids from a young age. When i was growing up there was no such facilities or programs in place. I want to create something to give all children a great chance to develop there football abilities from a young age and to make new friends. I have found it is a great way to help them develop both physically and mentally.
 
 ## User Experience
 
-### Visitor Goals
+### Initial Discussion
 
-- The primary goal of this website is to appeal to parents and gurardians of children to sign up for our summer camp.
+The Summer Soccer camp is an online webapge that introduces potential clients from a localised area to a week long soccer camp for kids. The pages include past images of the camp, a simple online registration form and a brief description of what activities kids will be able to participate in at the camp. It also includes an interactive google map segment which allows users to view directions to the camp.
 
-- The main image at the top of the page is intentionally of younger children to show that we are inclusive of the younger children and they are not too young or small to participate.
+### Key Information
 
-- The page is intended to be user friendly for navigation. I have designed a simple sign up page to make sign up a simple and quick process.
+* What we do at the camp.
+* Where the camp is located.
+* How I sign up.
+* The level of qualifications held by coaches.
+* The cost of the camp.
+* The gift for the children on completion of the camp.
+* That Parents must attend for supervision purposes.
+* The age requirement to attend the camp.
 
-- The Google Maps image at the foot of the page gives easy directions to the camp location.
+
+
+
+### Client Goals
+
+* To be able to view the site on a range of devices including a smartphone , a tablet and a laptop.
+* To make the site informative without having to much information to allow users to easily see the essential details.
+* To provide easy navigation throughout the site so users can easily navigate to and from different pages and sections of pages.
+* To provide a simple sign up form to allow users to register in seconds.
+* To provide a method of locating the camp.
+
+### First Time Visitor Goals
+
+* I want to find out what the camp is and how I can sign my child up.
+* I want to be able to navigate the site with ease to collect all the information I require to make a decision on joining.
+* I want to be able to navigate to the social media platforms to gain further perspective on the camp.
 
 ### Returning Visitor Goals
 
-- I am aware that a hight perecentage of visitors will not sign up initially as they will possibly have a converstation with there partner and children about signing the child up. I designed the page to have a appearence of simplistic design to encourage users to return and not be intimidated by to much detail.
+* I have talked to the relevant people at home and now want to return to sign up for the camp.
+* I want to be able to contact the camp with any questions I may have.
 
-- i have encouraged bookmarking the page in the aboutus section to encourage future ease of access.
+### Frequent Visitor Goals
+
+* I want to ensure on each yearly return to the site that I can sign my children up.
+
+
+
 
 ### Design
 
