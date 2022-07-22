@@ -15,7 +15,7 @@ body {
 /*-- logo and nav bar--*/
 
 header {
-    background: #ccf381;
+    background: #ccff99;
     display: flex;
     justify-content: space-between;
     padding: 15px;
@@ -53,7 +53,7 @@ a:hover {
     height: 600px;
     width: 100%;
     overflow: hidden;
-    background-color: #ccf381;
+    background-color: #ccff99;
     background: url(../images/pexels-lukas-296302\ \(2\).jpg) no-repeat center center;
     background-position: center;
     background-size: cover;
@@ -64,7 +64,7 @@ a:hover {
 }
 
 .text-content {
-    background: #ccf381;
+    background: #ccff99;
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -79,7 +79,7 @@ a:hover {
     display: flex;
     align-content: center;
     justify-content: center;
-    background-color: #ccf381;
+    background-color: #ccff99;
     padding: 15px;
     letter-spacing: 2px;
     font-family: roboto, sans-serif;
@@ -92,7 +92,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     width: auto;
-    border-bottom: #ccf381;
+    border-bottom: #ccff99;
     background-color: whitesmoke;
 }
 
@@ -106,8 +106,9 @@ a:hover {
     display: flex;
     justify-content: flex-start;
     font-size: 30px;
-    padding: 30px 0 0 20px;
+    padding: 20px;
 }
+
 
 .list-align {
     color: black;
@@ -143,13 +144,12 @@ iframe {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
 }
 
 /*--footer--*/
 
 footer {
-    background: #ccf381;
+    background: #ccff99;
     max-width: 100%;
     padding: 15px;
     border: 2px black solid;
@@ -184,7 +184,7 @@ i:hover {
 .sign-up-image {
     height: 600px;
     width: 100%;
-    background-color: #ccf381;
+    background-color: #ccff99;
     background: no-repeat;
     overflow: hidden;
 }
@@ -210,7 +210,7 @@ i:hover {
 }
 
 .signup-button {
-    background-color: #ccf381;
+    background-color: #ccff99;
     color: black;
     padding: 14px 20px;
     margin: 8px 0;
@@ -277,8 +277,6 @@ button:hover {
         width: 80%;
     }
 
-
-
 }
 
 @media screen and (max-width: 576px) {
@@ -298,6 +296,7 @@ button:hover {
         flex-direction: column;
         justify-content: space-evenly;
         height: auto;
+        overflow-x: hidden;
     }
 
     .left-div {

@@ -1,6 +1,6 @@
 <h1 align="center">Kids Summer Soccer Camp</h1>
 
-<img src="assets/css/images/Am i responsive.png" alt="image from Am i responsive website">
+<img src="assets/images/Am i responsive.png" alt="image from Am i responsive website">
 
 
 ## Motivation
@@ -49,33 +49,17 @@ The Summer Soccer camp is an online webapge that introduces potential clients fr
 
 * I want to ensure on each yearly return to the site that I can sign my children up.
 
-### Design
 
-#ccf381 Color Information
-Information
- 
-Conversion
- 
-Schemes
- 
-Alternatives
- 
-Preview
- 
-Shades and Tints
- 
-Tones
- 
-Blindness Simulator
-In a RGB color space, hex #ccf381 is composed of 80% red, 95.3% green and 50.6% blue. Whereas in a CMYK color space, it is composed of 16% cyan, 0% magenta, 46.9% yellow and 4.7% black. It has a hue angle of 80.5 degrees, a saturation of 82.6% and a lightness of 72.9%. #ccf381 color hex could be obtained by blending #ffffff with #99e703. Closest websafe color is: #ccff99.
+## Design
 
-#ccf381 color image
-R80G95B51
-RGB color chart
-C16M0Y47K5
-CMYK color chart
-● #ccf381 color description : Soft green.
+### Colour Scheme
 
+The below image was taken from the website colorhexa.com and it is an eaxample of the main colour displayed in this site. The original colour picked was a light green colour with a value of #ccf381. This colour was chosen in place of #ccf381 as it is considered a web safe colour as shown in colorhexa.com. 
+The other colours displayed on the site are whitesmoke and black. The whitesmoke colour was chosen for the purpose of emphasising the foreground display. Black was used for all font colours with red used for all hover actions.
+
+https://www.colorhexa.com/ccff99
+
+<img src="assets/images/Color styling.png" alt="image of color styling webpage">
 
 
 
