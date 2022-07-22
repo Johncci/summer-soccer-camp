@@ -54,7 +54,7 @@ a:hover {
     width: 100%;
     overflow: hidden;
     background-color: #ccff99;
-    background: url(../images/pexels-lukas-296302\ \(2\).jpg) no-repeat center center;
+    background: url(../images/summer\ camp\ main\ image.avif) no-repeat center center;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -134,6 +134,7 @@ a:hover {
 .right-div img {
     height: 400px;
     width: 400px;
+    border-radius: 50%;
 }
 
 /*--google map image--*/
@@ -243,16 +244,28 @@ button:hover {
 
 /*--media queries--*/
 
-@media screen and (max-width: 400px) {
+/*--mobile phone--*/
+
+@media screen and (max-width: 480px) {
 
     header {
         font-size: 20px;
+        height: 50%;
     }
 
     nav ul {
         display: block;
         flex-direction: column;
         list-style-type: disc;
+    }
+
+    .main-image {
+        height: 300px;
+    }
+
+    .text-content {
+        height: 150px;
+        width: 150px;
     }
 
     #about-us {
@@ -279,41 +292,7 @@ button:hover {
 
 }
 
-@media screen and (max-width: 576px) {
-
-    header {
-        font-size: 20px;
-    }
-
-    nav ul {
-        display: block;
-        flex-direction: column;
-        list-style-type: disc;
-    }
-
-    #about-us {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        height: auto;
-        overflow-x: hidden;
-    }
-
-    .left-div {
-        width: 100%;
-        margin-bottom: 50px;
-    }
-
-    .right-div {
-        width: 100%;
-        margin-bottom: 50px;
-    }
-
-    .gallery-photos2 img {
-        width: 80%;
-    }
-
-}
+/*--ipads and tablets--*/
 
 @media screen and (max-width: 768px) {
 
@@ -351,7 +330,9 @@ button:hover {
 
 }
 
-@media screen and (max-width: 992px) {
+/*--laptops and small screens--*/
+
+@media screen and (max-width: 1024px) {
 
     header {
         font-size: 20px;

@@ -100,6 +100,60 @@ The footer is displayed on all pages and it does not change its layout. It was m
 - The sign up page is a single page with a background image of a football net and a football. The foreground features a sign up form which asks the user for their information ,the childs information and an E-mail address.
 
 
+### Accessibility
+
+I have been conscientious of achieving the maximum amoun of accessibility possible by completing the following actions:
+
+* Using semantic HTML.
+
+* Using alt attribute with images on the site. There are two exceptions to the use of alt attributes. The first is the main image on  the home page which has a text circle inserted to assist screen readers and the background image on the sign up page which is there for background decorative purposes.
+
+* Ensuring sufficent colour contrast throughout the site
+
+* Adding text to the social media elements on the footer to assist screen readers.
+
+
+### Technologies Implemented
+
+* HTML and CSS - To create this website.
+
+* Git - For version control
+
+* Github - To save and store the files for the website construction.
+
+* Google Fonts - To import the fonts used on the website.
+
+* Font awesome - To create the social media icons on the footer.
+
+* Google dev tools - To troubleshoot and test features and to monitor and adjudt the website to ensure it is responsive.
+
+* Tiny PNG - To compress images
+
+* Am I Responsive? - To show the website image on a range of devices.
+
+
+### Testing
+
+Testing was an ongoing process from the start to the finish of the build. I used a chrome developer tools to assist me in solving problems as i progressed through the project.
+
+I encountered the following build issues and bugs as i progressed through the project.
+
+* The main image would not conform to my intended page size. At this point in the project I was using float elements to align my page. I then learned how to use flex properties and when I used flex properties I was able to align the main image.
+
+* The image in the about us section on the home page was creating a white margin on the right of the page when screen width reached 487px. I identified this issue using chrome developer tools. I applied an overflow value of hidden to the relevant media query to prevent this form happening.
+
+* The lighthouse test on developer tools is displaying a score of 82 for performance. I discussed this with my mentor and the possible explanation for this and reached a conclusion which i discuss in the lighthouse section later in the page.
+
+* The form name element in the input id for parent did not have sufficient indiviual detail as pointed out by my mentor. This was causing a problem when submittimg the form as there are two submission fields for parent/guardian and child. 
+
+
+
+
+
+
+
+
+
 
 
 
@@ -137,6 +191,8 @@ The footer is displayed on all pages and it does not change its layout. It was m
 -Encountered problem with main image enlarging the width of the page.
 -Encountered problem with google map image enlarging the width of the page.
 -Encountered problem with placement of form over image in sign-up page ,had difficulty centering using positioning elements.
+
+
 
 
 
