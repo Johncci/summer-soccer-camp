@@ -132,7 +132,7 @@ I have been conscientious of achieving the maximum amoun of accessibility possib
 * Am I Responsive? - To show the website image on a range of devices.
 
 
-### Testing
+### Testing and Bugs
 
 Testing was an ongoing process from the start to the finish of the build. I used a chrome developer tools to assist me in solving problems as i progressed through the project.
 
@@ -142,11 +142,11 @@ I encountered the following build issues and bugs as i progressed through the pr
 
 * The image in the about us section on the home page was creating a white margin on the right of the page when screen width reached 487px. I identified this issue using chrome developer tools. I applied an overflow value of hidden to the relevant media query to prevent this form happening.
 
-* The lighthouse test on developer tools is displaying a score of 82 for performance. I discussed this with my mentor and the possible explanation for this and reached a conclusion which i discuss in the lighthouse section later in the page.
+* The lighthouse test on developer tools is displaying a score of 75 for performance on the mobile text. I discussed this with my mentor and the possible explanation is the size of the main image and reached a conclusion which i discuss in the lighthouse section later in the page.
 
-* The form name element in the input id for parent did not have sufficient indiviual detail as pointed out by my mentor. This was causing a problem when submittimg the form as there are two submission fields for parent/guardian and child. 
+* The form name element in the input id for parent did not have sufficient indiviual detail as pointed out by my mentor. This was causing a problem when submittimg the form as there are two submission fields for parent/guardian and child.
 
-
+* I encountered difficulty postioning in the home page with the about us section. I was using float properties at this timeI could not get the image div and the text div to display side by side. I spoke to my mentor about my positioning problems and he recommended flex positioning. I changed to flex and this resolved the issue.
 
 
 
