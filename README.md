@@ -83,19 +83,19 @@ The website consists of three seperate pages with a home page extended into sect
 All pages on this website have a reponsive navigation bar at the top. The navigation bar is located on the right of the page opposite the main header. It is diplayed horizontally across the header. The navigation bar displays vertical with disks on mobile screen sizes. The main logo in displayed on the left on all pages. It is displayed horizontally but the words stack on top of one another on mobile devices to allow sapce in the main header and avoid cluttering.
 The footer is displayed on all pages and it does not change its layout. It was made responvie throught he use of Flex elements. The social media icons on the footer narrow in width but maintain an equal space as the page gets smaller. The wording for each social media icon will move underneath the icons when the page width reaches 487px.
 
-* Home Page.
+### Home Page.
 
-- Main Image Section: The main image shows kids playing football in front of goalposts. It is intended to highlight the age profile of kids that can attend the summer camp to attract all age groups that are within the age brackets. There is a text circle within the image highlighting the age requirements. There is a bar containing text underneath the main image. This is a quote from a famous sports person intended to encourage signing up.
+* Main Image Section: The main image shows kids playing football in front of goalposts. It is intended to highlight the age profile of kids that can attend the summer camp to attract all age groups that are within the age brackets. There is a text circle within the image highlighting the age requirements. There is a bar containing text underneath the main image. This is a quote from a famous sports person intended to encourage signing up.
 
-- About Us Section: The about us section consists of two parts which are layed out horizontally on larger screens and on smaller screen sizes, the image will move underneath the text. The text displays on the left and gives the essential information about the summer camp with contact details for any further queries. The image is of a football sitting in the middle of a football field.
+* About Us Section: The about us section consists of two parts which are layed out horizontally on larger screens and on smaller screen sizes, the image will move underneath the text. The text displays on the left and gives the essential information about the summer camp with contact details for any further queries. The image is of a football sitting in the middle of a football field.
 
-- Google map section: The Google map is displayed at the bottom of the screen above the footer. It is an interactive map that allows users to see where the summer camp will be held.
+* Google map section: The Google map is displayed at the bottom of the screen above the footer. It is an interactive map that allows users to see where the summer camp will be held.
 
-* Gallery.
+### Gallery.
 
 - The gallery is a small collection of images from previous camps. Its purpose is to give the viewer a better understanding of what the camp entails. The images will display in two columns on larger screens and in a vertical column on tablet and mobile devices.
 
-* Sign Up:
+### Sign Up.
 
 - The sign up page is a single page with a background image of a football net and a football. The foreground features a sign up form which asks the user for their information ,the childs information and an E-mail address.
 
@@ -146,7 +146,26 @@ I encountered the following build issues and bugs as i progressed through the pr
 
 * The form name element in the input id for parent did not have sufficient indiviual detail as pointed out by my mentor. This was causing a problem when submittimg the form as there are two submission fields for parent/guardian and child.
 
-* I encountered difficulty postioning in the home page with the about us section. I was using float properties at this timeI could not get the image div and the text div to display side by side. I spoke to my mentor about my positioning problems and he recommended flex positioning. I changed to flex and this resolved the issue.
+* I encountered difficulty postioning in the home page with the about us section. I was using float properties at this time, I could not get the image div and the text div to display side by side. I spoke to my mentor about my positioning problems and he recommended flex positioning. I changed to flex and this resolved the issue.
+
+## W3C Validator
+
+### Home Page HTML
+
+<img src= "assets/images/home page html.png" alt="Home page image of HTML Validator result">
+
+### Gallery Page HTML
+
+<img src= "assets/images/gallery page html.png" alt="Gallery page image of HTML Validator result">
+
+### Sign Up Page HTML
+
+<img src= "assets/images/sign up page html.png" alt="Sign Up page image of html validator result">
+
+### CSS Validator
+
+<img src= "assets/images/CSS validator.png" alt="Image of CSS validator result">
+
 
 
 
