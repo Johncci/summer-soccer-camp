@@ -35,6 +35,40 @@ nav ul {
     align-items: center;
 }
 
+#menu {
+    width: 250px;
+    min-height: 250px;
+    position: absolute;
+    background-color: white;
+    top: 80px;
+    right: 10px;
+    border-radius: 10px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#menu ul li {
+    padding: 10px 40px;
+    background-color: #ccff99;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+#hamburger-icon {
+    width: 80px;
+    height: 80px;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -238,18 +272,23 @@ button:hover {
 
 /*--mobile phone--*/
 
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 568px) {
+
+    header h1 {
+        font-size: 18px;
+    }
 
     header {
-        font-size: 20px;
-        height: 50%;
+        align-items: center;
     }
 
-    nav ul {
-        display: block;
-        flex-direction: column;
-        list-style-type: disc;
+
+    #menu,
+    #hamburger-icon {
+        display: flex;
     }
+
 
     .main-image {
         height: 300px;
@@ -291,14 +330,14 @@ button:hover {
         width: 100%;
     }
 
-    .signup-form form {
-        line-height: 25px;
-    }
-
     .gallery-photos2 img {
         width: 80%;
         padding: 10px;
         height: auto;
+    }
+
+    nav {
+        display: none;
     }
 
 }
@@ -311,12 +350,20 @@ button:hover {
         font-size: 20px;
     }
 
+
     nav ul {
         display: block;
         flex-direction: column;
         list-style-type: disc;
         line-height: 30px;
     }
+
+    #menu,
+    #hamburger-icon {
+        display: none;
+    }
+
+
 
     #about-us {
         display: flex;
@@ -350,6 +397,11 @@ button:hover {
         font-size: 20px;
     }
 
+    #menu,
+    #hamburger-icon {
+        display: none;
+    }
+
     nav ul {
         display: block;
         flex-direction: column;
@@ -379,6 +431,22 @@ button:hover {
     }
 
 }
+
+
+@media screen and (min-width: 1024px) {
+
+    #menu,
+    #hamburger-icon {
+        display: none;
+    }
+
+
+
+
+}
+
+
+
 
 /*
 .sign-up-image {
