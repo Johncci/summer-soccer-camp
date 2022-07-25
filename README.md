@@ -1,6 +1,6 @@
 <h1 align="center">Kids Summer Soccer Camp</h1>
 
-<img src="assets/images/Am i responsive.png" alt="image from Am i responsive website">
+<img src="assets/images/am-i-responsive.png" alt="image from Am i responsive website">
 
 
 ## <U>**Motivation**</U>
@@ -22,8 +22,6 @@ The Summer Soccer camp is an online webapge that introduces potential clients fr
 * The gift for the children on completion of the camp.
 * That Parents must attend for supervision purposes.
 * The age requirement to attend the camp.
-
-
 
 
 ### **Client Goals**
@@ -59,7 +57,7 @@ The other colours displayed on the site are whitesmoke and black. The whitesmoke
 
 The website used for the colour scheme is [Color hexa](https://www.colorhexa.com/ccff99). I have attached a screenshot of the particular colour used.
 
-<img src="assets/images/Color styling.png" alt="image of color styling webpage">
+<img src="assets/images/am-i-responsive.png" alt="image of color styling webpage">
 
 ### **Font-family**
 
@@ -153,19 +151,19 @@ I encountered the following build issues and bugs as I progressed through the pr
 
 ### **Home Page HTML**
 
-<img src= "assets/images/home page html.png" alt="Home page image of HTML Validator result">
+<img src= "assets/images/am-i-responsive.png" alt="Home page image of HTML Validator result">
 
 ### **Gallery Page HTML**
 
-<img src= "assets/images/gallery page html.png" alt="Gallery page image of HTML Validator result">
+<img src= "assets/images/gallery-page-html.png" alt="Gallery page image of HTML Validator result">
 
 ### **Sign Up Page HTML**
 
-<img src= "assets/images/sign up page html.png" alt="Sign Up page image of html validator result">
+<img src= "assets/images/sign-up-page-html.png" alt="Sign Up page image of html validator result">
 
 ### **CSS Validator**
 
-<img src= "assets/images/CSS validator.png" alt="Image of CSS validator result">
+<img src= "assets/images/css-validator.png" alt="Image of CSS validator result">
 
 ## **Testing User Stories** 
 
@@ -174,9 +172,9 @@ I encountered the following build issues and bugs as I progressed through the pr
 * I want to find out what the summer soccer camp is and are my children eligable to join up. The about us section answers these questions and also provide a contact method for any further questions. I also see text on the main image telling me the age eligibility. I see the links at the top of the page showing me where I can click for easy access to the relevant pages.
 
 <br>
-<img src="assets/images/Home page for readme.png" alt="Image of site home page">
+<img src="assets/images/home-page-for-readme.png" alt="Image of site home page">
 
-<img src="assets/images/About us section for readme.png" alt="Image of about us section on home page">
+<img src="assets/images/about-us-section-for-readme.png" alt="Image of about us section on home page">
 
 <br>
 
@@ -184,7 +182,7 @@ I encountered the following build issues and bugs as I progressed through the pr
 
 <br>
 
-<img src="assets/images/google map home page image.png" alt="Image of google map and footer on home page">
+<img src="assets/images/google-map-home-page-image.png" alt="Image of google map and footer on home page">
 
 <br>
 
@@ -192,7 +190,7 @@ I encountered the following build issues and bugs as I progressed through the pr
 
 <br>
 
-<img src="assets/images/gallery image for readme.png" alt="Image of gallery page">
+<img src="assets/images/gallery-image-for-readme.png" alt="Image of gallery page">
 
 <br>
 
@@ -202,7 +200,7 @@ I encountered the following build issues and bugs as I progressed through the pr
 
 <br>
 
-<img src="assets/images/image sign up page for readme.png" alt="Image of sign up page">
+<img src="assets/images/image-sign-up-page-for-readme.png" alt="Image of sign up page">
 
 <br>
 
@@ -215,6 +213,17 @@ I applied the lighthouse tool to this project which is located in the Chrome Dev
 * Accessibility
 * Best Practices
 * SEO
+
+<br>
+
+<img src="assets/images/lighthouse-desktop-home.png" alt="home page lighthouse score for desktop">
+<img src="assets/images/lighthouse-mobile-homepage.png" alt="home page lighthouse score for mobile">
+<img src="assets/images/lighthouse-desktop-gallery.png" alt="gallery page lighthouse score for desktop">
+<img src="assets/images/lighthouse-mobile-gallery.png" alt="gallery page lighthouse score for mobile">
+<img src="assets/images/lighthouse-desktop-signup.png" alt="sign up page lighthouse score for desktop">
+<img src="assets/images/lighthouse-mobile-signup.png" alt="sign up page lighthouse score for mobile">
+
+
 
 
 
