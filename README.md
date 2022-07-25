@@ -216,12 +216,52 @@ I applied the lighthouse tool to this project which is located in the Chrome Dev
 
 <br>
 
+### **Home Page**
+
+The following images in this section are displayed as lighthouse desktop as the first image and lighthouse mobile as the second image.
+<br>
+
+1. The image below displays the lighthouse desktop score for the home page. The performance score was diplaying as 76 on a mobile device and 85 on a desktop device. I consulted with my mentor about the score and he imformed me the size of the main image was the problem.
+
+
+2. I used the website [ezgif.com](https://ezgif.com/) to address this problem. I resized image and this increased the performance score to 99 on the desktop devices and 93 on the mobile devices. the increase in score came directly as a result of these changes as confirmed through retesting.
+
+
 <img src="assets/images/lighthouse-desktop-home.png" alt="home page lighthouse score for desktop">
 <img src="assets/images/lighthouse-mobile-homepage.png" alt="home page lighthouse score for mobile">
+<br>
+
+### **Gallery Page**
+
+The following images in this section are displayed as lighthouse desktop as the first image and lighthouse mobile as the second image.
+<br>
+
+1. The Image displayed below displays a desktop score of 100 for every section. The mobile performance score was 86 for performance and 93 on desktop.
+
+2. The performance issue was addressed by converting the largest image file to webp and by changing the aspect ratio of the images using exgif.com. I gave consideration to changing the remaining images but after viewing the images in a different format I decided to keep them as they were rather than gain one performance score point. The increase in score came directly from these changes as confirmed through retesting.
+
 <img src="assets/images/lighthouse-desktop-gallery.png" alt="gallery page lighthouse score for desktop">
 <img src="assets/images/lighthouse-mobile-gallery.png" alt="gallery page lighthouse score for mobile">
+
+
+### **SIGN UP PAGE**
+
+The following images in this section are displayed as lighthouse desktop as the first image and lighthouse mobile as the second image.
+<br>
+
+1. The background image on this page was effecting perfomance. The lighthouse suggestion was to serve the image in a next gen format. The original perfomance score was 89.
+
+2. I addressed this issue by again using ezgif.com and and increased the score to 96. The background image also displays differently on different devices as it does not respond 
+
+
 <img src="assets/images/lighthouse-desktop-signup.png" alt="sign up page lighthouse score for desktop">
 <img src="assets/images/lighthouse-mobile-signup.png" alt="sign up page lighthouse score for mobile">
+<br>
+
+## **<u>Full Testing</u>**
+
+
+
 
 
 
