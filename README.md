@@ -1,6 +1,6 @@
 <h1 align="center">Kids Summer Soccer Camp</h1>
 
-<img src="assets/images/am-i-responsive.png" alt="image from Am i responsive website">
+![Link to am i responsive website](assets/images/am-i-responsive.png)
 
 
 ## <U>**Motivation**</U>
@@ -57,7 +57,7 @@ The other colours displayed on the site are whitesmoke and black. The whitesmoke
 
 The website used for the colour scheme is [Color hexa](https://www.colorhexa.com/ccff99). I have attached a screenshot of the particular colour used.
 
-<img src="assets/images/am-i-responsive.png" alt="image of color styling webpage">
+<img src="assets/images/color-styling.png" alt="image of color styling webpage">
 
 ### **Font-family**
 
@@ -256,9 +256,49 @@ The following images in this section are displayed as lighthouse desktop as the 
 
 <img src="assets/images/lighthouse-desktop-signup.png" alt="sign up page lighthouse score for desktop">
 <img src="assets/images/lighthouse-mobile-signup.png" alt="sign up page lighthouse score for mobile">
+
 <br>
 
 ## **<u>Full Testing</u>**
+
+* I performed testing on using the following browsers - Google Chrome ,Safari ,Mozilla Firefox.
+
+* I performed testing on the following devices - Samsung S21+ , Samsung S10 and Huawei MateBook D15. I also used google chrome developer tools to check the sites responsiveness on all the different screen sizes.
+
+<br>
+
+### **links**
+
+1. Test each link on the index page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+2. Test each link on the gallery page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+3. Test each link on the sign up page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+
+<br>
+
+### **Sign Up Form**
+
+I performed multiple tests on the sign up form. These tests invovled attemptimg to submit the form with missing fields. The form would not allow me to submit with any missing fields. It redirected in order from top to bottom to the missing field.
+
+* I filled out just the email address and attempted to enter and an icon appeared on the first name field at the top stating to fill out this field.
+
+* I filled out the first name field and the email address and an icon appeared directing me to fill out the last name field.
+
+* i filled out the first name field, the email address and the last name field and an icon appeared telling me to fill out the childs first name field.
+
+* I filled out the first name field, the email address, the last name field and the childs first name field and an icon appeared telling me to fill out the childs last name field.
+
+* i filled out all fields and the form submitted correctly.
+<br>
+
+I tryed multiple combinations of all the fields with leaving some empty and the form would not submit unless all fields were filled in.
+
+<br>
+
+## <u>**Credits**</u>
+
+
+
+
 
 
 

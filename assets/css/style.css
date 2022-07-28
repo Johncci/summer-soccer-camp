@@ -234,6 +234,8 @@ i:hover {
     padding: 20px;
     color: black;
     line-height: 40px;
+
+
 }
 
 .signup-button {
@@ -272,23 +274,15 @@ button:hover {
 
 /*--mobile phone--*/
 
-
 @media screen and (max-width: 568px) {
 
     header h1 {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     header {
         align-items: center;
     }
-
-
-    #menu,
-    #hamburger-icon {
-        display: flex;
-    }
-
 
     .main-image {
         height: 300px;
@@ -302,7 +296,7 @@ button:hover {
     }
 
     .quote-div {
-        font-size: 15px;
+        font-size: 10px;
         padding: 5px;
 
     }
@@ -313,6 +307,10 @@ button:hover {
         justify-content: space-evenly;
         width: 100vw;
         overflow-x: hidden;
+    }
+
+    .list-align {
+        font-size: 20px;
     }
 
     .left-div {
@@ -336,10 +334,14 @@ button:hover {
         height: auto;
     }
 
+    #menu,
+    #hamburger-icon {
+        display: flex;
+    }
+
     nav {
         display: none;
     }
-
 }
 
 /*--ipads and tablets--*/
@@ -360,10 +362,8 @@ button:hover {
 
     #menu,
     #hamburger-icon {
-        display: none;
+        display: flex;
     }
-
-
 
     #about-us {
         display: flex;
@@ -391,7 +391,7 @@ button:hover {
 
 /*--laptops and small screens--*/
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 569px) and (max-width: 1024px) {
 
     header {
         font-size: 20px;
@@ -432,18 +432,16 @@ button:hover {
 
 }
 
-
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1025px) {
 
     #menu,
     #hamburger-icon {
         display: none;
     }
 
-
-
-
 }
+
+
 
 
 
