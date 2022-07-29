@@ -222,7 +222,7 @@ i:hover {
     align-items: center;
     width: 100%;
     background: url(../images/ezgif-3-27701c9ab5.avif) no-repeat center center;
-    height: 80vh;
+    height: 600px;
 }
 
 .signup-form form {
@@ -234,7 +234,6 @@ i:hover {
     padding: 20px;
     color: black;
     line-height: 40px;
-
 
 }
 
@@ -342,6 +341,20 @@ button:hover {
     nav {
         display: none;
     }
+
+    .social-media {
+        font-size: 65%;
+    }
+
+    .signup-form form {
+        display: flex;
+        align-content: center;
+        justify-content: space-around;
+        flex-direction: column;
+        line-height: 20px;
+        height: 360px;
+
+    }
 }
 
 /*--ipads and tablets--*/
@@ -351,7 +364,6 @@ button:hover {
     header {
         font-size: 20px;
     }
-
 
     nav ul {
         display: block;
@@ -439,18 +451,4 @@ button:hover {
         display: none;
     }
 
-}
-
-
-
-
-
-
-/*
-.sign-up-image {
-    height: 600px;
-    width: 100%;
-    background-color: #ccff99;
-    background: no-repeat;
-    overflow: hidden;
 }
