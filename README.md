@@ -1,10 +1,17 @@
 <h1 align="center">Kids Summer Soccer Camp</h1>
 
-![Link to am i responsive website](assets/images/am-i-responsive.png)
+
 
 
 ## <U>**Motivation**</U>
-This website was created to advertise a soccer camp for kids in suncroft, co. Kildare. It's goal is to encourage parents to sign up there kids to our soccer camps.My motivation for this project is based on my own involvement with training kids from a young age. When i was growing up there was no such facilities or programs in place. I want to create something to give all children a great chance to develop there football abilities from a young age and to make new friends. I have found it is a great way to help them develop both physically and mentally.
+This website was created to advertise a soccer camp for kids in suncroft, co. Kildare. It's goal is to encourage parents to sign up there kids to our soccer camps.My motivation for this project is based on my own involvement with training kids from a young age. When i was growing up there was no such facilities or programs in place. I want to create something to give all children a great chance to develop there football abilities from a young age and to make new friends. I have found it is a great way to help them develop both physically and mentally.!
+
+
+![Am i responsive website image](assets/images/am-i-responsive.png)
+
+
+
+
 
 ## <u>**User Experience**</u>
 
