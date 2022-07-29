@@ -1,15 +1,32 @@
-<h1 align="center">Kids Summer Soccer Camp</h1>
+<h1 align="center">Summer Soccer Camp</h1>
 
 
 
 
 ## <U>**Motivation**</U>
-This website was created to advertise a soccer camp for kids in suncroft, co. Kildare. It's goal is to encourage parents to sign up there kids to our soccer camps.My motivation for this project is based on my own involvement with training kids from a young age. When i was growing up there was no such facilities or programs in place. I want to create something to give all children a great chance to develop there football abilities from a young age and to make new friends. I have found it is a great way to help them develop both physically and mentally.!
+The Summer Soccer Camp website was created to advertise a soccer camp for kids in suncroft, co. Kildare. It's goal is to encourage parents to sign up their kids to our soccer camps. My motivation for this project is based on my own involvement with training kids from a young age. When I was growing up there was no such facilities or programs in place. I want to create something to give all children a great chance to develop there football abilities from a young age and to make new friends. I have found it is a great way to help them develop both physically and mentally.
+
+The Summer Soccer Camp website is aimed at both parents and their children. The Initial view of the website will most likely be from a parent and the information provided is relative to the parent. The imagery of the website were created with the intention of making it easier for both the parent and child to gain an insight into what the camp involves. The overall aim is that the easy to find information and the imagery will allow both parent and child to reach what is often a mutual decision to attend this summer camp.
+
 
 
 ![Am i responsive website image](assets/images/am-i-responsive.png)
 
 
+
+## **Features** ##
+
+The following are images of the entire site and a brief description of the value each feature provides for the user. 
+<br>
+
+### **Existing Features** ###
+<br>
+
+* **Navigation Bar**
+
+  * Featured on all three pages, the naviagtion bar located at the top of the page is fully responsive and includes links to the Logo, Home Page, About Us section, Gallery and Sign Up page. The navigation bar is identical in each page to allow easy navigation.
+
+  [Navigation bar](assets/images/header-nav-menu.png)
 
 
 
@@ -23,7 +40,7 @@ The Summer Soccer camp is an online webapge that introduces potential clients fr
 
 * What we do at the camp.
 * Where the camp is located.
-* How I sign up.
+* How do I sign up.
 * The level of qualifications held by coaches.
 * The cost of the camp.
 * The gift for the children on completion of the camp.
