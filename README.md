@@ -112,6 +112,8 @@ The following are images of the entire site and a brief description of the value
 
 The Summer Soccer camp is an online webapge that introduces potential clients from a localised area to a week long soccer camp for kids. The pages include past images of the camp, a simple online registration form and a brief description of what activities kids will be able to participate in at the camp. It also includes an interactive google map segment which allows users to view directions to the camp.
 
+<br>
+
 * **Key Information**
 
   * What we do at the camp.
@@ -123,6 +125,7 @@ The Summer Soccer camp is an online webapge that introduces potential clients fr
   * That Parents must attend for supervisiory reasons.
   * The age requirement to attend the camp.
 
+<br>
 
 * **Client Goals**
 
@@ -132,16 +135,22 @@ The Summer Soccer camp is an online webapge that introduces potential clients fr
   * To provide a simple sign up form to allow users to register in seconds.
   * To provide a method of locating the camp.
 
+<br>
+
 * **First Time Visitor Goals**
 
   * I want to find out what the camp is and how I can sign my child up.
   * I want to be able to navigate the site with ease to collect all the information I require to make a decision on joining.
   * I want to be able to navigate to the social media platforms to gain further perspective on the camp.
 
+<br>
+
 * **Returning Visitor Goals**
 
   * I have talked to the relevant people at home and now want to return to sign up for the camp.
   * I want to be able to contact the camp with any questions I may have.
+
+<br>
  
 * **Frequent Visitor Goals**
 
@@ -188,6 +197,7 @@ The other colours displayed on the site are whitesmoke and black. The whitesmoke
 
   * Adding text to the social media elements on the footer to assist screen readers.
 
+<br>
 
 ## <U>**Technologies Implemented**</U>
 
@@ -211,6 +221,8 @@ The other colours displayed on the site are whitesmoke and black. The whitesmoke
 
   * Ezgif.com - To optimize images.
 
+  <br>
+
 ## <U>**Testing and Bugs**</U>
 
 * Testing was an ongoing process from the start to the finish of the build. I used a chrome developer tools to assist me in solving problems as I progressed through the project. I encountered the following build issues and bugs as I progressed through the project.
@@ -224,6 +236,9 @@ The other colours displayed on the site are whitesmoke and black. The whitesmoke
   4. The form name element in the input id for parent did not have sufficient indiviual detail as highlighted by my mentor. This was causing a problem when submittimg the form as there are two submission fields for parent/guardian and child.
 
   5. I encountered difficulty postioning in the home page with the about us section. I was using float properties at this time, I could not get the image div and the text div to display side by side. I spoke to my mentor about my positioning problems and he recommended flex positioning. I changed to using flex properties and this made it easier for me to position these elements.
+
+  6. The burger mene would not display as expected on small screen sizes. I spoke to my mentor who reviewed this issue and told me to lok at my media queries overlapping. the problem was that the small screen size was being overuled by larger screen sizes which had the CSS command of display:None;. I addressed this issue by creating a minimum width media query which prevented the larger screen media query from flowing down to the smaller screens. This was all achieved with assistance from my mentor.
+
 
 ## <U>**W3C Validator**</U>
 
@@ -242,7 +257,6 @@ The other colours displayed on the site are whitesmoke and black. The whitesmoke
 ![CSS Validator](assets/images/css-validator.png)
 
 <br>
-
 
 ## **Final Testing User Goals** 
 
@@ -264,73 +278,28 @@ The other colours displayed on the site are whitesmoke and black. The whitesmoke
 
 * Google map
 
-  *
+  * I tested the google map and it worked as expected. It is centered over the location of the camp. It also has an option of an arial view. 
 
-  
+ * Footer Links
 
-<br>
+   * I tested each link on the home page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+   * I tested each link on the gallery page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+   * I tested each link on the sign up page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
 
-### **links**
 
-1. Test each link on the index page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
-2. Test each link on the gallery page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
-3. Test each link on the sign up page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+* Sign Up Form
 
-<br>
+  * I filled out just the email address and attempted to enter and an icon appeared on the first name field at the top stating to fill out this field.
 
-### **Sign Up Form**
+  * I filled out the first name field and the email address and an icon appeared directing me to fill out the last name field.
 
-I performed multiple tests on the sign up form. These tests invovled attemptimg to submit the form with missing fields. The form would not allow me to submit with any missing fields. It redirected in order from top to bottom to the missing field.
+  * i filled out the first name field, the email address and the last name field and an icon appeared telling me to fill out the childs first name field.
 
-* I filled out just the email address and attempted to enter and an icon appeared on the first name field at the top stating to fill out this field.
+  * I filled out the first name field, the email address, the last name field and the childs first name field and an icon appeared telling me to fill out the childs last name field.
 
-* I filled out the first name field and the email address and an icon appeared directing me to fill out the last name field.
+  * I filled out all fields and the form submitted correctly.
 
-* i filled out the first name field, the email address and the last name field and an icon appeared telling me to fill out the childs first name field.
-
-* I filled out the first name field, the email address, the last name field and the childs first name field and an icon appeared telling me to fill out the childs last name field.
-
-* i filled out all fields and the form submitted correctly.
-<br>
-
-I tryed multiple combinations of all the fields with leaving some empty and the form would not submit unless all fields were filled in.
-
-  
-
-### **First time visitors**
-
-* I want to find out what the summer soccer camp is and are my children eligable to join up. The about us section answers these questions and also provide a contact method for any further questions. I also see text on the main image telling me the age eligibility. I see the links at the top of the page showing me where I can click for easy access to the relevant pages.
-
-<br>
-<img src="assets/images/home-page-for-readme.png" alt="Image of site home page">
-
-<img src="assets/images/about-us-section-for-readme.png" alt="Image of about us section on home page">
-
-<br>
-
-* I want to be able to access the social media profiles at the bottom of the page. These will open in a new browser window when selected. I want to use the google map to find the exact location for the camp. The social media icons also have text required for use of a screen reader. The coial media links open in a new window for a good user experience
-
-<br>
-
-<img src="assets/images/google-map-home-page-image.png" alt="Image of google map and footer on home page">
-
-<br>
-
-* I want to access the past photos of the camp and gain an insight into what the camp involves by viewing the activities. I want to show these images to my children to encourage signing up to the camp.
-
-<br>
-
-<img src="assets/images/gallery-image-for-readme.png" alt="Image of gallery page">
-
-<br>
-
-### **Returning Visitors**
-
-* I want to return to the page and access the sign-up form to sign up my children to the camp after having a discussion about the children's interest in the camp. I want to access the about us section to discuss any concerns i may have before signing my children up for the camp. 
-
-<br>
-
-<img src="assets/images/image-sign-up-page-for-readme.png" alt="Image of sign up page">
+  * I tryed multiple combinations of all the fields with leaving some empty and the form would not submit unless all fields were filled in.
 
 <br>
 
@@ -426,6 +395,26 @@ I tryed multiple combinations of all the fields with leaving some empty and the 
 
 ## <u>**Credits**</u>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## <u>**All Pages**</u>
 
 All pages on this website have a reponsive navigation bar at the top. The navigation bar is located on the right of the page opposite the main header. It is diplayed horizontally across the header. The navigation bar displays vertical with disks on mobile screen sizes. The main logo in displayed on the left on all pages. It is displayed horizontally but the words stack on top of one another on mobile devices to allow sapce in the main header and avoid cluttering.
@@ -467,6 +456,40 @@ The footer is displayed on all pages and it does not change its layout. It was m
 
 
 
+### **First time visitors**
+
+* I want to find out what the summer soccer camp is and are my children eligable to join up. The about us section answers these questions and also provide a contact method for any further questions. I also see text on the main image telling me the age eligibility. I see the links at the top of the page showing me where I can click for easy access to the relevant pages.
+
+<br>
+<img src="assets/images/home-page-for-readme.png" alt="Image of site home page">
+
+<img src="assets/images/about-us-section-for-readme.png" alt="Image of about us section on home page">
+
+<br>
+
+* I want to be able to access the social media profiles at the bottom of the page. These will open in a new browser window when selected. I want to use the google map to find the exact location for the camp. The social media icons also have text required for use of a screen reader. The coial media links open in a new window for a good user experience
+
+<br>
+
+<img src="assets/images/google-map-home-page-image.png" alt="Image of google map and footer on home page">
+
+<br>
+
+* I want to access the past photos of the camp and gain an insight into what the camp involves by viewing the activities. I want to show these images to my children to encourage signing up to the camp.
+
+<br>
+
+<img src="assets/images/gallery-image-for-readme.png" alt="Image of gallery page">
+
+<br>
+
+### **Returning Visitors**
+
+* I want to return to the page and access the sign-up form to sign up my children to the camp after having a discussion about the children's interest in the camp. I want to access the about us section to discuss any concerns i may have before signing my children up for the camp. 
+
+<br>
+
+<img src="assets/images/image-sign-up-page-for-readme.png" alt="Image of sign up page">
 
 ### Design
 
