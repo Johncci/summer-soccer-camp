@@ -36,19 +36,75 @@ The following are images of the entire site and a brief description of the value
 
 * **Landing page Image**
 
-   * The Landing page is a photograph from a previous soccer camp. It has a text circle with the age requirements contained inside. It also has a quote from a famous sports personality underneath the image.
+  * The Landing page is a photograph from a previous soccer camp. It has a text circle with the age requirements contained inside. It also has a quote from a famous sports personality underneath the image.
 
-   * This section displays an image from a previous soccer camp. It shows kids having fun performing an exercise. It is intended through the text and the image to show the age requirements and the fun that can be had at the camp. The quote is directly aimed at the parents or guardians of the child to encourage participation.
+  * This section displays an image from a previous soccer camp. It shows kids having fun performing an exercise. It is intended through the text and the image to show the age requirements and the fun that can be had at the camp. The quote is directly aimed at the parents or guardians of the child to encourage participation.
 
-   <br>
+  <br>
 
-   ![Landing image](assets/images/main-image.png)
+  ![Landing image](assets/images/main-image.png)
 
-   <br>
+  <br>
 
+* **About us Section**
 
+  * The about us section gives a description of the key details of the camp and a contact method for any further questions. There is also and image of a football to the right of the details for decorative purposes.
 
+  * This section is designed so has to give short but descriptive details of the camp to the user and have them all in one place.
 
+  <br>
+
+  ![About us section](assets/images/about-us.png)
+
+  <br>
+
+* **Google map**
+
+  * This section contains a google map and was extracted from google maps.
+
+  * The google map allows the user to view the location of the camp.
+
+  <br>
+
+  ![Google map of camp location](assets/images/google-map.png)
+
+  <br>
+
+* **Footer** 
+
+  * The footer section allows the user to access the relevant social media links for the camp. It also contains a copyright notice. The social media icons have the names of the social media sites placed underneath them. This was done to accomodate screen readers.
+
+  * The value of the footer is that it helps the user to keep in contact through social media to encourage them to gain further insight into the camp and keep updated of any future camps.
+
+  <br>
+
+  ![Footer containing social media links](assets/images/footer.png)
+
+  <br>
+
+* **Gallery** 
+
+  * The gallery consists of four images taken from previous camps.
+
+  * The gallery is valuable to the user as it allows them to gain insight of the camp by viewing images of previous camps. It also allows them to show the child the camp activities if encouragement to sign up for the camp is needed.
+
+  <br>
+
+  ![Gallery of the camp](assets/images/gallery.png)
+
+  <br>
+
+* **Sign up page**
+
+  * The sign up page contains a sign up form for the camp and a background image of a football hitting a net.
+
+  * The sign up page is of value to the user as it allows them to fill out a simple sign up form to register for the camp. The sign up form allows the user to enter their own name and the childs name. The sign up form can be submittd multiple times by the same user to allow for multiple registrations.
+
+  <br>
+
+  ![Sign up form](assets/images/sign-up.png)
+
+  <br>
 
 ## <u>**User Experience**</u>
 
@@ -56,160 +112,190 @@ The following are images of the entire site and a brief description of the value
 
 The Summer Soccer camp is an online webapge that introduces potential clients from a localised area to a week long soccer camp for kids. The pages include past images of the camp, a simple online registration form and a brief description of what activities kids will be able to participate in at the camp. It also includes an interactive google map segment which allows users to view directions to the camp.
 
-### **Key Information**
+* **Key Information**
 
-* What we do at the camp.
-* Where the camp is located.
-* How do I sign up.
-* The level of qualifications held by coaches.
-* The cost of the camp.
-* The gift for the children on completion of the camp.
-* That Parents must attend for supervision purposes.
-* The age requirement to attend the camp.
+  * What we do at the camp.
+  * Where the camp is located.
+  * How do I sign up.
+  * The level of qualifications held by coaches.
+  * The cost of the camp.
+  * The gift for the children on completion of the camp.
+  * That Parents must attend for supervisiory reasons.
+  * The age requirement to attend the camp.
 
 
-### **Client Goals**
+* **Client Goals**
 
-* To be able to view the site on a range of devices including a smartphone , a tablet and a laptop.
-* To make the site informative without having to much information to allow users to easily see the essential details.
-* To provide easy navigation throughout the site so users can easily navigate to and from different pages and sections of pages.
-* To provide a simple sign up form to allow users to register in seconds.
-* To provide a method of locating the camp.
+  * To be able to view the site on a range of devices including a smartphone , a tablet and a laptop.
+  * To make the site informative without having to much information to allow users to easily see the essential details.
+  * To provide easy navigation throughout the site so users can easily navigate to and from different pages and sections of pages.
+  * To provide a simple sign up form to allow users to register in seconds.
+  * To provide a method of locating the camp.
 
-### **First Time Visitor Goals**
+* **First Time Visitor Goals**
 
-* I want to find out what the camp is and how I can sign my child up.
-* I want to be able to navigate the site with ease to collect all the information I require to make a decision on joining.
-* I want to be able to navigate to the social media platforms to gain further perspective on the camp.
+  * I want to find out what the camp is and how I can sign my child up.
+  * I want to be able to navigate the site with ease to collect all the information I require to make a decision on joining.
+  * I want to be able to navigate to the social media platforms to gain further perspective on the camp.
 
-### **Returning Visitor Goals**
+* **Returning Visitor Goals**
 
-* I have talked to the relevant people at home and now want to return to sign up for the camp.
-* I want to be able to contact the camp with any questions I may have.
+  * I have talked to the relevant people at home and now want to return to sign up for the camp.
+  * I want to be able to contact the camp with any questions I may have.
  
-### **Frequent Visitor Goals**
+* **Frequent Visitor Goals**
 
-* I want to return to this site for updates on new camp dates in the future.
+  * I want to return to this site for updates on new camp dates in the future. I also want to use the social media links as a further method of keeping up to date on future camps.
 
+<br>
 
 ## <u>**Designs**</u>
 
-### **Colour Scheme**
+* **Colour Scheme**
 
-The below image was taken from the website colorhexa.com and it is an eaxample of the main colour displayed in this site. The original colour picked was a light green colour with a value of #ccf381. This colour was chosen in place of #ccf381 as it is considered a web safe colour as shown in colorhexa.com. 
+  * The below image was taken from the website colorhexa.com and it is an eaxample of the main colour displayed in this site. The original colour picked was a light green colour with a value of #ccf381. This colour was chosen in place of #ccf381 as it is considered a web safe colour as shown in colorhexa.com. 
 The other colours displayed on the site are whitesmoke and black. The whitesmoke colour was chosen for the purpose of emphasising the foreground display. Black was used for all font colours with red used for all hover actions.
 
-The website used for the colour scheme is [Color hexa](https://www.colorhexa.com/ccff99). I have attached a screenshot of the particular colour used.
+  * The website used for the colour scheme is [Color hexa](https://www.colorhexa.com/ccff99). I have attached a screenshot of the particular colour used.
 
-<img src="assets/images/color-styling.png" alt="image of color styling webpage">
+  <br>
 
-### **Font-family**
+  ![Webpage used for main colour styling](assets/images/color-styling.png)
 
-The following Google Fonts were used for this site:
+  <br>
 
-* Roboto was used for the headings on the site. It is a Sans-Serif font. The back up font selected was San-Serif.
+* **Font-family**
 
-* Lato was used for the body of the site. It is also a Sans-Serif font. The back up Font selected was Sans-Serif.
+  * Roboto was used for the headings on the site. It is a Sans-Serif font. The back up font selected was San-Serif.
 
-### **Imagery**
+  * Lato was used for the body of the site. It is also a Sans-Serif font. The back up Font selected was Sans-Serif.
 
-All imagery was used with the permission of their owners. I have credited all of these in the Credits section of this README.md File.
+* **Imagery**
 
+  * All imagery was used with the permission of their owners. I have credited all of these in the Credits section of this README.md File.
 
-### **Site Layout**
-
-The website consists of three seperate pages with a home page extended into sections. All pages are accessible from the navbar at the top of the pages. 
-
-## <u>**All Pages**</u>
-
-All pages on this website have a reponsive navigation bar at the top. The navigation bar is located on the right of the page opposite the main header. It is diplayed horizontally across the header. The navigation bar displays vertical with disks on mobile screen sizes. The main logo in displayed on the left on all pages. It is displayed horizontally but the words stack on top of one another on mobile devices to allow sapce in the main header and avoid cluttering.
-The footer is displayed on all pages and it does not change its layout. It was made responvie throught he use of Flex elements. The social media icons on the footer narrow in width but maintain an equal space as the page gets smaller. The wording for each social media icon will move underneath the icons when the page width reaches 487px.
-
-### **Home Page**
-
-* Main Image Section: The main image shows kids playing football in front of goalposts. It is intended to highlight the age profile of kids that can attend the summer camp to attract all age groups that are within the age brackets. There is a text circle within the image highlighting the age requirements. There is a bar containing text underneath the main image. This is a quote from a famous sports person intended to encourage signing up.
-
-* About Us Section: The about us section consists of two parts which are layed out horizontally on larger screens and on smaller screen sizes, the image will move underneath the text. The text displays on the left and gives the essential information about the summer camp with contact details for any further queries. The image is of a football sitting in the middle of a football field.
-
-* Google map section: The Google map is displayed at the bottom of the screen above the footer. It is an interactive map that allows users to see where the summer camp will be held.
-
-### **Gallery**
-
-* The gallery is a small collection of images from previous camps. Its purpose is to give the viewer a better understanding of what the camp entails. The images will display in two columns on larger screens and in a vertical column on tablet and mobile devices.
-
-### **Sign Up**
-
-* The sign up page is a single page with a background image of a football net and a football. The foreground features a sign up form which asks the user for their information ,the childs information and an E-mail address.
-
+<br>
 
 ## <U>**Accessibility**</U>
 
-I have been conscientious of achieving the maximum amount of accessibility possible by completing the following actions:
+* I have been conscientious of achieving the maximum amount of accessibility possible by completing the following actions:
 
-* Using semantic HTML.
+  * Using semantic HTML.
 
-* Using alt attribute with images on the site. There are two exceptions to the use of alt attributes. The first is the main image on  the home page which has a text circle inserted to assist screen readers and the background image on the sign up page which is there for background decorative purposes.
+  * Using alt attribute with images on the site. There are two exceptions to the use of alt attributes. The first is the main image on  the home page which has a text circle inserted to assist screen readers and the background image on the sign up page which is there for background decorative purposes.
 
-* Ensuring sufficent colour contrast throughout the site
+  * Ensuring sufficent colour contrast throughout the site
 
-* Adding text to the social media elements on the footer to assist screen readers.
+  * Adding text to the social media elements on the footer to assist screen readers.
 
 
 ## <U>**Technologies Implemented**</U>
 
-* HTML and CSS - To create this website.
+* The following technologies were implemented in the construction and design of this website.
 
-* Git - For version control.
+  * HTML and CSS - To create this website.
 
-* Github - To save and store the files for the website construction.
+  * Git - For version control.
 
-* Google Fonts - To import the fonts used on the website.
+  * Github - To save and store the files for the website construction.
 
-* Font awesome - To create the social media icons on the footer.
+  * Google Fonts - To import the fonts used on the website.
 
-* Google dev tools - To troubleshoot and test features and to monitor and adjudt the website to ensure it is responsive.
+  * Font awesome - To create the social media icons on the footer.
 
-* Tiny PNG - To compress images.
+  * Google dev tools - To troubleshoot and test features and to monitor and adjudt the website to ensure it is responsive.
 
-* Am I Responsive? - To show the website image on a range of devices.
+  * Tiny PNG - To compress images.
 
-* Ezgif.com - To optimize images.
+  * Am I Responsive? - To show the website image on a range of devices.
+
+  * Ezgif.com - To optimize images.
 
 ## <U>**Testing and Bugs**</U>
 
-Testing was an ongoing process from the start to the finish of the build. I used a chrome developer tools to assist me in solving problems as I progressed through the project.
+* Testing was an ongoing process from the start to the finish of the build. I used a chrome developer tools to assist me in solving problems as I progressed through the project. I encountered the following build issues and bugs as I progressed through the project.
 
-I encountered the following build issues and bugs as I progressed through the project:
+  1. The main image would not conform to my intended page size. At this point in the project I was using float elements to align my page. I then learned how to use flex properties and when I used flex properties it was easier to align the main image.
 
-1. The main image would not conform to my intended page size. At this point in the project I was using float elements to align my page. I then learned how to use flex properties and when I used flex properties I was able to align the main image.
+  2. The image in the about us section on the home page was creating a white margin on the right of the page when screen width reached 487px. I identified this issue using chrome developer tools. I applied an overflow value of hidden to the relevant media query to prevent this form happening.
 
-2. The image in the about us section on the home page was creating a white margin on the right of the page when screen width reached 487px. I identified this issue using chrome developer tools. I applied an overflow value of hidden to the relevant media query to prevent this form happening.
+  3. The lighthouse test on developer tools is displaying a score of 75 for performance on the mobile text. I discussed this with my mentor and the possible explanation is the size of the main image and reached a conclusion which i discuss in the lighthouse section later in this readme.md file.
 
-3. The lighthouse test on developer tools is displaying a score of 75 for performance on the mobile text. I discussed this with my mentor and the possible explanation is the size of the main image and reached a conclusion which i discuss in the lighthouse section later in this readme.md file.
+  4. The form name element in the input id for parent did not have sufficient indiviual detail as highlighted by my mentor. This was causing a problem when submittimg the form as there are two submission fields for parent/guardian and child.
 
-4. The form name element in the input id for parent did not have sufficient indiviual detail as highlighted by my mentor. This was causing a problem when submittimg the form as there are two submission fields for parent/guardian and child.
-
-5. I encountered difficulty postioning in the home page with the about us section. I was using float properties at this time, I could not get the image div and the text div to display side by side. I spoke to my mentor about my positioning problems and he recommended flex positioning. I changed to flex and this resolved the issue.
+  5. I encountered difficulty postioning in the home page with the about us section. I was using float properties at this time, I could not get the image div and the text div to display side by side. I spoke to my mentor about my positioning problems and he recommended flex positioning. I changed to using flex properties and this made it easier for me to position these elements.
 
 ## <U>**W3C Validator**</U>
 
-### **Home Page HTML**
+* The W3C validator was used to to validate the html on all pages of this website. No errors were returned when passing through the W3C validator.
+ 
+  * [Home Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-soccercampforki-lzzw06ry160.ws-eu54.gitpod.io%2Findex.html)
+  * [Gallery Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-soccercampforki-lzzw06ry160.ws-eu54.gitpod.io%2Fgallery.html)
+  * [Sign Up Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-soccercampforki-lzzw06ry160.ws-eu54.gitpod.io%2Fsignup.html)
 
-<img src= "assets/images/am-i-responsive.png" alt="Home page image of HTML Validator result">
+  <br>
 
-### **Gallery Page HTML**
+* The official Jigsaw Validator was used to validate the CSS on the website. No errors were found when passing through the Jigsaw validator.
 
-<img src= "assets/images/gallery-page-html.png" alt="Gallery page image of HTML Validator result">
+<br>
 
-### **Sign Up Page HTML**
+![CSS Validator](assets/images/css-validator.png)
 
-<img src= "assets/images/sign-up-page-html.png" alt="Sign Up page image of html validator result">
+<br>
 
-### **CSS Validator**
 
-<img src= "assets/images/css-validator.png" alt="Image of CSS validator result">
+## **Final Testing User Goals** 
 
-## **Testing User Stories** 
+* Device testing
+
+  * I performed testing on the following devices - Samsung S21+ , Samsung S10 and Huawei MateBook D15. I also used google chrome developer tools to check the sites responsiveness on the following devices - iPhone SE, iphone XR, iphone 12 pro, Pixel 5, Samsung Galaxy S8, Samsung Galaxy S20 Ultra, ipad Air, Surface Pro 7, Surface Duo, Galaxy Fold, Samsung Galaxy A51/71, Nest Hub, Nest Hub Max. All tests showed the website to perform as expected.
+
+* Browser testing
+
+  * I performed testing on using the following browsers - Google Chrome ,Safari ,Mozilla Firefox. All tests showed the website to perform as expected.
+
+* Header
+
+  * I tested the logo and nav bar to ensure that the links worked as expected form the home page. Each link brought me to the required location when selected.
+
+  * I tested the logo and nav bar to ensure that all links worked as expected from the gallery page. Each link brought me to the required location when selected.
+
+  * I tested the logo and nav bar to ensure that the links worked as expected form the sing up page. Each link brought me to the required location when selected.
+
+* Google map
+
+  *
+
+  
+
+<br>
+
+### **links**
+
+1. Test each link on the index page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+2. Test each link on the gallery page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+3. Test each link on the sign up page. Each link worked as expected, and any links leading to external pages opened correctly in a seperate browser tab.
+
+<br>
+
+### **Sign Up Form**
+
+I performed multiple tests on the sign up form. These tests invovled attemptimg to submit the form with missing fields. The form would not allow me to submit with any missing fields. It redirected in order from top to bottom to the missing field.
+
+* I filled out just the email address and attempted to enter and an icon appeared on the first name field at the top stating to fill out this field.
+
+* I filled out the first name field and the email address and an icon appeared directing me to fill out the last name field.
+
+* i filled out the first name field, the email address and the last name field and an icon appeared telling me to fill out the childs first name field.
+
+* I filled out the first name field, the email address, the last name field and the childs first name field and an icon appeared telling me to fill out the childs last name field.
+
+* i filled out all fields and the form submitted correctly.
+<br>
+
+I tryed multiple combinations of all the fields with leaving some empty and the form would not submit unless all fields were filled in.
+
+  
 
 ### **First time visitors**
 
@@ -339,6 +425,28 @@ I tryed multiple combinations of all the fields with leaving some empty and the 
 <br>
 
 ## <u>**Credits**</u>
+
+## <u>**All Pages**</u>
+
+All pages on this website have a reponsive navigation bar at the top. The navigation bar is located on the right of the page opposite the main header. It is diplayed horizontally across the header. The navigation bar displays vertical with disks on mobile screen sizes. The main logo in displayed on the left on all pages. It is displayed horizontally but the words stack on top of one another on mobile devices to allow sapce in the main header and avoid cluttering.
+The footer is displayed on all pages and it does not change its layout. It was made responvie throught he use of Flex elements. The social media icons on the footer narrow in width but maintain an equal space as the page gets smaller. The wording for each social media icon will move underneath the icons when the page width reaches 487px.
+
+### **Home Page**
+
+* Main Image Section: The main image shows kids playing football in front of goalposts. It is intended to highlight the age profile of kids that can attend the summer camp to attract all age groups that are within the age brackets. There is a text circle within the image highlighting the age requirements. There is a bar containing text underneath the main image. This is a quote from a famous sports person intended to encourage signing up.
+
+* About Us Section: The about us section consists of two parts which are layed out horizontally on larger screens and on smaller screen sizes, the image will move underneath the text. The text displays on the left and gives the essential information about the summer camp with contact details for any further queries. The image is of a football sitting in the middle of a football field.
+
+* Google map section: The Google map is displayed at the bottom of the screen above the footer. It is an interactive map that allows users to see where the summer camp will be held.
+
+### **Gallery**
+
+* The gallery is a small collection of images from previous camps. Its purpose is to give the viewer a better understanding of what the camp entails. The images will display in two columns on larger screens and in a vertical column on tablet and mobile devices.
+
+### **Sign Up**
+
+* The sign up page is a single page with a background image of a football net and a football. The foreground features a sign up form which asks the user for their information ,the childs information and an E-mail address.
+
 
 
 

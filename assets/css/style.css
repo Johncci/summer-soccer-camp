@@ -94,7 +94,6 @@ a:hover {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
 }
 
 .text-content {
@@ -448,6 +447,8 @@ button:hover {
     }
 
 }
+
+/*--Larger screens--*/
 
 @media screen and (min-width: 1025px) {
 
