@@ -14,7 +14,7 @@ The Summer Soccer Camp website is aimed at both parents and their children. The 
 
 
 
-## **Features** ##
+## <u>**Features**</u> ##
 
 The following are images of the entire site and a brief description of the value each feature provides for the user. 
 <br>
@@ -26,7 +26,27 @@ The following are images of the entire site and a brief description of the value
 
   * Featured on all three pages, the naviagtion bar located at the top of the page is fully responsive and includes links to the Logo, Home Page, About Us section, Gallery and Sign Up page. The navigation bar is identical in each page to allow easy navigation.
 
-  [Navigation bar](assets/images/header-nav-menu.png)
+  * The Navigation bar will allow users to navigate easily from page to page. The links are consistent on each page to allow the user access to any plave on the website from every page. The one exception is the About us link which brings the user to content in the middle of the home page from anywhere in the website.
+
+  <br>
+
+  ![Navigation bar](assets/images/header-nav-menu.png)
+
+  <br>
+
+* **Landing page Image**
+
+   * The Landing page is a photograph from a previous soccer camp. It has a text circle with the age requirements contained inside. It also has a quote from a famous sports personality underneath the image.
+
+   * This section displays an image from a previous soccer camp. It shows kids having fun performing an exercise. It is intended through the text and the image to show the age requirements and the fun that can be had at the camp. The quote is directly aimed at the parents or guardians of the child to encourage participation.
+
+   <br>
+
+   ![Landing image](assets/images/main-image.png)
+
+   <br>
+
+
 
 
 
