@@ -315,17 +315,19 @@ The other colours displayed on the site are whitesmoke and black. The whitesmoke
 
 <br>
 
-* Home Page
+### **Home Page**
 
 The following images in this section are displayed as lighthouse desktop as the first image and lighthouse mobile as the second image.
 <br>
 
-1. The image below displays the lighthouse desktop score for the home page. The performance score was diplaying as 76 on a mobile device and 85 on a desktop device. I consulted with my mentor about the score and he imformed me the size of the main image was the problem.
+1. The image below displays the lighthouse desktop score for the home page. The performance score was diplaying as 76 on a mobile device and 85 on a desktop device. I consulted with my mentor about the score and he informed me the size of the main image was having a negative impact on performance score.
 
 
-2. I used the website [ezgif.com](https://ezgif.com/) to address this problem. I resized image and this increased the performance score to 99 on the desktop devices and 93 on the mobile devices. the increase in score came directly as a result of these changes as confirmed through retesting.
+2. I used the website [ezgif.com](https://ezgif.com/) to address this problem. I resized image and this increased the performance score to 99 on the desktop devices and 95 on the mobile devices. The increase in score came directly as a result of these changes as confirmed through retesting.
 
+![Lighthouse home desktop score](assets/images/lighthouse-desktop-home.png)
 
+![Lighthouse home mobile score](assets/images/lighthouse-home-mobile.png)
 
 <br>
 
@@ -334,13 +336,15 @@ The following images in this section are displayed as lighthouse desktop as the 
 The following images in this section are displayed as lighthouse desktop as the first image and lighthouse mobile as the second image.
 <br>
 
-1. The Image displayed below displays a desktop score of 100 for every section. The mobile performance score was 86 for performance and 93 on desktop.
+1. The Image displayed below displays a desktop score of 100 for every section. The first lighthouse mobile score was 86 for performance and 93 on desktop.
 
-2. The performance issue was addressed by converting the largest image file to webp and by changing the aspect ratio of the images using exgif.com. I gave consideration to changing the remaining images but after viewing the images in a different format I decided to keep them as they were rather than gain one performance score point. The increase in score came directly from these changes as confirmed through retesting.
+2. The performance issue was addressed by converting the largest image file to webp and by changing the aspect ratio of the images using ezgif. The performance score increased to 100 on desktop and 99 on mobile.
 
-<img src="assets/images/lighthouse-desktop-gallery.png" alt="gallery page lighthouse score for desktop">
-<img src="assets/images/lighthouse-mobile-gallery.png" alt="gallery page lighthouse score for mobile">
+![Lighthouse gallery desktop score](assets/images/lighthouse-desktop-gallery.png)
 
+![Lighthouse gallery mobile score](assets/images/lighthouse-gallery-mobile.png)
+
+<br>
 
 ### **SIGN UP PAGE**
 
@@ -349,11 +353,11 @@ The following images in this section are displayed as lighthouse desktop as the 
 
 1. The background image on this page was effecting perfomance. The lighthouse suggestion was to serve the image in a next gen format. The original perfomance score was 89.
 
-2. I addressed this issue by again using ezgif.com and and increased the score to 96. The background image also displays differently on different devices as it does not respond 
+2. I addressed this issue by again using ezgif.com and increased the performance score to 96. 
 
+![Lighthouse sign up page desktop score](assets/images/lighthouse-signup-desktop.png)
 
-<img src="assets/images/lighthouse-desktop-signup.png" alt="sign up page lighthouse score for desktop">
-<img src="assets/images/lighthouse-mobile-signup.png" alt="sign up page lighthouse score for mobile">
+![Lighthouse sign up page desktop score](assets/images/lighthouse-signup-mobile.png)
 
 <br>
 
@@ -391,6 +395,17 @@ I performed multiple tests on the sign up form. These tests invovled attemptimg 
 I tryed multiple combinations of all the fields with leaving some empty and the form would not submit unless all fields were filled in.
 
 <br>
+
+## <u>**Deployment and Local Development**</u>
+
+### **Deployment**
+
+The live website was deployed by following the instructions below. Github pages was used to achieve this.
+
+  1. Log in to Github
+  2. Find the repository named john-considine/summer-soccer-camp
+  3. click on the settings link.
+  
 
 ## <u>**Credits**</u>
 
