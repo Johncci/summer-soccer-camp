@@ -305,17 +305,17 @@ The other colours displayed on the site are whitesmoke and black. The whitesmoke
 
 ## <u>**LightHouse**</u>
 
-I applied the lighthouse tool to this project which is located in the Chrome Developer Tools. The four tests performed in this tool are:
+* I applied the lighthouse tool to this project which is located in the Chrome Developer Tools. There are four areas tested in the lighthouse test.
+
+
+  * Performance
+  * Accessibility
+  * Best Practices
+  * SEO
+
 <br>
 
-* Performance
-* Accessibility
-* Best Practices
-* SEO
-
-<br>
-
-### **Home Page**
+* Home Page
 
 The following images in this section are displayed as lighthouse desktop as the first image and lighthouse mobile as the second image.
 <br>
@@ -326,8 +326,7 @@ The following images in this section are displayed as lighthouse desktop as the 
 2. I used the website [ezgif.com](https://ezgif.com/) to address this problem. I resized image and this increased the performance score to 99 on the desktop devices and 93 on the mobile devices. the increase in score came directly as a result of these changes as confirmed through retesting.
 
 
-<img src="assets/images/lighthouse-desktop-home.png" alt="home page lighthouse score for desktop">
-<img src="assets/images/lighthouse-mobile-homepage.png" alt="home page lighthouse score for mobile">
+
 <br>
 
 ### **Gallery Page**
