@@ -37,7 +37,7 @@ nav ul {
 
 /*-- Hamburger menu assistance from Harsh Chandra in creating menu --*/
 
-#menu {
+header>#menu {
     width: 250px;
     min-height: 250px;
     position: absolute;
@@ -57,6 +57,7 @@ nav ul {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+
 }
 
 #menu ul li {
@@ -64,6 +65,7 @@ nav ul {
     background-color: #ccff99;
     border-radius: 10px;
     margin: 5px;
+
 }
 
 #hamburger-icon {
@@ -230,6 +232,12 @@ i:hover {
     background-color: #ccff99;
 }
 
+.text-input {
+    height: 30px;
+    padding-left: 4px;
+
+}
+
 .signup-form form {
     border: 2px solid black;
     text-align: center;
@@ -290,7 +298,7 @@ button:hover {
     }
 
     .main-image {
-        height: 300px;
+        height: 450px;
     }
 
     .text-content {
@@ -358,6 +366,7 @@ button:hover {
         line-height: 20px;
         height: 360px;
     }
+
 }
 
 /*--ipads and tablets--*/
