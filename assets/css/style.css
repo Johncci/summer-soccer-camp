@@ -35,11 +35,13 @@ nav ul {
     align-items: center;
 }
 
+/*-- Hamburger menu assistance from Harsh Chandra in creating menu --*/
+
 #menu {
     width: 250px;
     min-height: 250px;
     position: absolute;
-    background-color: white;
+    background-color: whitesmoke;
     top: 80px;
     right: 10px;
     border-radius: 10px;
@@ -225,6 +227,7 @@ i:hover {
     width: 100%;
     background: url(../images/signup-image.avif) no-repeat center center;
     height: 770px;
+    background-color: #ccff99;
 }
 
 .signup-form form {

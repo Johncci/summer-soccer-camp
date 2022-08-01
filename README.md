@@ -2,7 +2,7 @@
 
 
 ## <U>**Motivation**</U>
-The Summer Soccer Camp website was created to advertise a soccer camp for children in Suncroft, co. Kildare. It's goal is to encourage parents to sign up their kids to our soccer camp. My motivation for this project is based on my own involvement with training kids from a young age. When I was a child there was no such facilities or programs in place. I want to create something to give all children a great chance to develop there football abilities from a young age and to make new friends. I have found it is a great way to help them develop both physically and mentally.
+The Summer Soccer Camp website was created to advertise a soccer camp for children in Suncroft, Co. Kildare. It's goal is to encourage parents to sign up their kids to our soccer camp. My motivation for this project is based on my own involvement with training kids from a young age. When I was a child there was no such facilities or programs in place. I want to create something to give all children a great chance to develop there football abilities from a young age and to make new friends. I have found it is a great way to help them develop both physically and mentally.
 
 The Summer Soccer Camp website is aimed at both parents and their children. The Initial view of the website will most likely be from a parent and the information provided is relative to the parent. The imagery of the website was created with the intention of making it easier for both the parent and child to gain an insight into what the camp involves. The overall aim is that the easy to find information and the imagery will allow both parent and child to reach what is often a mutual decision to attend this summer camp.
 
@@ -13,10 +13,8 @@ The Summer Soccer Camp website is aimed at both parents and their children. The 
 ## <u>**Features**</u> ##
 
 The following are images of the entire site and a brief description of the value each feature provides for the user. 
-<br>
 
 ### **Existing Features** ###
-<br>
 
 * **Navigation Bar**
 
@@ -60,7 +58,7 @@ The following are images of the entire site and a brief description of the value
 
 * **Footer** 
 
-  * The footer section allows the user to access the relevant social media links for the camp. It also contains a copyright notice. The social media icons have the names of the social media sites placed underneath them. This was done to accommodate screen readers. The footer is fully reposnsive.
+  * The footer section allows the user to access the relevant social media links for the camp. It also contains a copyright notice. The social media icons have the names of the social media sites placed underneath them. This was done to accommodate screen readers. The footer is fully responsive.
 
   * The value of the footer is that it helps the user to keep in contact through the social media icons displayed to encourage them to gain further insight into the camp and keep updated of any future camps. It is also displayed on each page.
 <br>
@@ -166,7 +164,7 @@ The Summer Soccer camp is an online webpage that introduces potential clients fr
 
   * Using alt attribute with images on the site. There are two exceptions to the use of alt attributes. The first is the main image on the home page which has a text circle inserted to assist screen readers and the background image on the sign up page which is there for background decorative purposes.
 
-  * Ensuring sufficent colour contrast throughout the site
+  * Ensuring sufficent colour contrast throughout the site.
 
   * Adding text to the social media elements on the footer to assist screen readers.
 <br>
@@ -240,7 +238,7 @@ The Summer Soccer camp is an online webpage that introduces potential clients fr
 
   * I tested the logo and nav bar to ensure that all links worked as expected from the gallery page. Each link brought me to the required location when selected.
 
-  * I tested the logo and nav bar to ensure that the links worked as expected from the sing up page. Each link brought me to the required location when selected.
+  * I tested the logo and nav bar to ensure that the links worked as expected from the sign up page. Each link brought me to the required location when selected.
 
 * Google map
 
@@ -358,7 +356,7 @@ To clone the summer-soccer-camp repository:
 
   * The JavaScript used for the hamburger menu on smaller screen sizes was written by Harsh Chandra a software developer. I wanted the burger menu for smaller screen sizes but I did not have the knowledge to accomplish it by myself. I personally wrote the CSS and HTML for the hamburger menu with assistance from Harsh Chandra.
 
-  * The began this project using float properties but I then learned of an easier way to psotion items using flex. I learned how to apply [Flex Positioning](https://www.w3schools.com/css/css3_flexbox.asp) at W3C schools.
+  * The began this project using float properties but I then learned of an easier way to position items using flex. I learned how to apply [Flex Positioning](https://www.w3schools.com/css/css3_flexbox.asp) at W3C schools.
 <br>
 
 ### **Media**
@@ -372,7 +370,7 @@ To clone the summer-soccer-camp repository:
   * The image on the sign up page of a football hitting a football net was taken from [wallpaperaccess.com](https://wallpaperaccess.com/)
   * The social media icons on the footer were taken from [fontawesome.com](https://fontawesome.com/).
   * The embedded google map was taken from [googlemaps.com](https://www.google.com/maps/@53.1167628,-6.8752443,14z).
-  * The icon for the burger menu was taken from [icon-libarary.com](https://icon-library.com/).
+  * The icon for the hamburger menu was taken from [icon-libarary.com](https://icon-library.com/).
   * The quote on the home page by Mike Singletary was taken from [brainyquote.com](https://www.brainyquote.com/).
   * The images on this site were changed from there original settings using [ezgif.com](https://ezgif.com/).
   * The font for this page was set using [googlefonts.com](https://fonts.google.com/). 
