@@ -142,7 +142,6 @@ a:hover {
     padding: 20px;
 }
 
-
 .list-align {
     color: black;
     list-style-type: disc;
@@ -224,9 +223,8 @@ i:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background: url(../images/ezgif-3-27701c9ab5.avif) no-repeat center center;
+    background: url(../images/signup-image.avif) no-repeat center center;
     height: 770px;
-
 }
 
 .signup-form form {
@@ -238,8 +236,9 @@ i:hover {
     padding: 20px;
     color: black;
     line-height: 40px;
-
 }
+
+/*--sign up button code from W3C schools--*/
 
 .signup-button {
     background-color: #ccff99;
@@ -295,13 +294,11 @@ button:hover {
         height: 120px;
         width: 120px;
         font-size: 12px;
-
     }
 
     .quote-div {
         font-size: 10px;
         padding: 5px;
-
     }
 
     #about-us {
@@ -357,7 +354,6 @@ button:hover {
         flex-direction: column;
         line-height: 20px;
         height: 360px;
-
     }
 }
 
