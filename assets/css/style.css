@@ -228,12 +228,12 @@ i:hover {
     align-items: center;
     width: 100%;
     background: url(../images/signup-image.avif) no-repeat center center;
-    height: 770px;
+    height: 85vh;
     background-color: #ccff99;
 }
 
 .text-input {
-    height: 30px;
+    height: 25px;
     padding-left: 4px;
 
 }
@@ -241,12 +241,16 @@ i:hover {
 .signup-form form {
     border: 2px solid black;
     text-align: center;
-    height: 350px;
+    height: 60vh;
     width: 300px;
     background-color: whitesmoke;
-    padding: 20px;
+    padding: 30px;
     color: black;
-    line-height: 40px;
+    line-height: 6vh;
+}
+
+.signup-form h2 {
+    padding-top: 20px;
 }
 
 /*--sign up button code from W3C schools--*/
@@ -255,7 +259,7 @@ i:hover {
     background-color: #ccff99;
     color: black;
     padding: 14px 20px;
-    margin: 8px 0;
+    margin: 25px 0;
     border: none;
     cursor: pointer;
     width: 100%;

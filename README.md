@@ -43,7 +43,7 @@ The following are images of the entire site and a brief description of the value
   * The value of this section is that it provides short but descriptive details of the camp to the user and all this information is in one place which is accessible from the nav bar on every page.
 <br>
 
-  ![About us section](assets/images/about-us.png)
+  ![About us section](assets/images/about-us-section.png)
 <br>
 
 * **Google map**
