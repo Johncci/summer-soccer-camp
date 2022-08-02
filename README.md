@@ -97,6 +97,7 @@ The Summer Soccer camp is an online webpage that introduces potential clients fr
 
   * What we do at the camp.
   * Where the camp is located.
+  * When is the camp taking place.
   * How do I sign up.
   * The level of qualifications held by coaches.
   * The cost of the camp.
@@ -198,7 +199,7 @@ The Summer Soccer camp is an online webpage that introduces potential clients fr
 
   * The image in the about us section on the home page was creating a white margin on the right of the page when screen width reached 487px. I identified this issue using chrome developer tools. I applied an overflow value of hidden to the relevant media query to prevent this from happening.
 
-  * The lighthouse test on developer tools is displaying a score of 75 for performance on the mobile text. I discussed this with my mentor and the possible explanation is the size of the main image and reached a conclusion which I discuss in the lighthouse section later in this readme.md file.
+  * The lighthouse test on developer tools is displaying a score of 75 for performance on the mobile home page test. I discussed this with my mentor and the possible explanation is the size of the main image and reached a conclusion which I discuss in the lighthouse section later in this readme.md file.
 
   * The form name element in the input id for parent did not have sufficient indiviual detail as highlighted by my mentor. This was causing a problem when submitting the form as there are two submission fields for parent/guardian and child.
 
@@ -211,9 +212,9 @@ The Summer Soccer camp is an online webpage that introduces potential clients fr
 
 * The W3C validator was used to to validate the html on all pages of this website. No errors were returned when passing through the W3C validator.
  
-  * [Home Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-soccercampforki-lzzw06ry160.ws-eu54.gitpod.io%2Findex.html)
-  * [Gallery Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-soccercampforki-lzzw06ry160.ws-eu54.gitpod.io%2Fgallery.html)
-  * [Sign Up Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-soccercampforki-lzzw06ry160.ws-eu54.gitpod.io%2Fsignup.html)
+  * [Home Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-summersoccercam-cxc6mhus2ku.ws-eu54.gitpod.io%2Findex.html%23home)
+  * [Gallery Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-summersoccercam-cxc6mhus2ku.ws-eu54.gitpod.io%2Fgallery.html)
+  * [Sign Up Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-summersoccercam-cxc6mhus2ku.ws-eu54.gitpod.io%2Fsignup.html)
 <br>
 
 * The official Jigsaw Validator was used to validate the CSS on the website. No errors were found when passing through the Jigsaw validator.
@@ -280,13 +281,13 @@ The Summer Soccer camp is an online webpage that introduces potential clients fr
 The following images in this section are displayed as lighthouse desktop as the first image and lighthouse mobile as the second image.
 <br>
 
-1. The image below displays the lighthouse desktop score for the home page. The performance score was diplaying as 76 on a mobile device and 85 on a desktop device. I consulted with my mentor about the score and he informed me the size of the main image was having a negative impact on performance score.
+1. The image below displays the lighthouse desktop score for the home page. The performance score was diplaying as 75 on a mobile device and 86 on a desktop device. I consulted with my mentor about the score and he informed me the size of the main image was having a negative impact on performance score.
 
-2. I used the website [ezgif.com](https://ezgif.com/) to address this problem. I resized image and this increased the performance score to 99 on the desktop devices and 95 on the mobile devices. The increase in score came directly as a result of these changes as confirmed through retesting.
+2. I used the website [ezgif.com](https://ezgif.com/) to address this problem. I resized image and this increased the performance score to 99 on the desktop devices and 94 on the mobile devices. The increase in score came directly as a result of these changes as confirmed through retesting.
 
 ![Lighthouse home desktop score](assets/images/lighthouse-desktop-home.png)
 
-![Lighthouse home mobile score](assets/images/lighthouse-home-mobile.png)
+![Lighthouse home mobile score](assets/images/lighthouse-mobile-home.png)
 <br>
 
 ### **Gallery Page**
@@ -294,13 +295,13 @@ The following images in this section are displayed as lighthouse desktop as the 
 The following images in this section are displayed as lighthouse desktop as the first image and lighthouse mobile as the second image.
 <br>
 
-1. The Image displayed below displays a desktop score of 100 for every section. The first lighthouse mobile score was 86 for performance and 93 on desktop.
+1. The first lighthouse performance score was 86 for mobile and 93 on desktop.
 
-2. The performance issue was addressed by converting the largest image file to webp and by changing the aspect ratio of the images using ezgif. The performance score increased to 100 on desktop and 99 on mobile.
+2. The performance issue was addressed by converting the largest image file to webp and by changing the aspect ratio of the images using ezgif. The performance score increased to 99 on desktop and 97 on mobile.
 
 ![Lighthouse gallery desktop score](assets/images/lighthouse-desktop-gallery.png)
 
-![Lighthouse gallery mobile score](assets/images/lighthouse-gallery-mobile.png)
+![Lighthouse gallery mobile score](assets/images/lighthouse-mobile-gallery.png)
 <br>
 
 ### **Sign Up Page**
@@ -310,11 +311,11 @@ The following images in this section are displayed as lighthouse desktop as the 
 
 1. The background image on this page was effecting perfomance. The lighthouse suggestion was to serve the image in a next gen format. The original perfomance score was 89.
 
-2. I addressed this issue by again using ezgif.com and increased the performance score to 96. 
+2. I addressed this issue by again using ezgif.com and increased the performance score to 96 for mobile. 
 
-![Lighthouse sign up page desktop score](assets/images/lighthouse-signup-desktop.png)
+![Lighthouse sign up page desktop score](assets/images/lighthouse-desktop-signup.png)
 
-![Lighthouse sign up page desktop score](assets/images/lighthouse-signup-mobile.png)
+![Lighthouse sign up page desktop score](assets/images/lighthouse-mobile-signup.png)
 <br>
 
 ## <u>**Deployment and Local Development**</u>
@@ -382,7 +383,7 @@ To clone the summer-soccer-camp repository:
 
   I would like to thank the following people who gave up their time to help me in completing this website.
 
-    * Antonio Rodriguez - My Mentor who offered his help both my appointments and outside appointment hours and never failed to point me in the right direction when I was struggling to find solutions to problems.
+    * Antonio Rodriguez - My Mentor who offered his help both by appointments and outside appointment hours and never failed to point me in the right direction when I was struggling to find solutions to existing bugs.
 
     * Code Institute Tutors - For helping me with my website positioning and most importantly for spotting an error in a file name.
 
