@@ -18,9 +18,9 @@ The following are images of the entire site and a brief description of the value
 
 * **Navigation Bar**
 
-  * Featured on all three pages, the navigation bar located at the top of the page is fully responsive and includes links to the Logo, Home Page, About Us section, Gallery and Sign Up page. The navigation bar is identical in each page to allow easy navigation.
+  * Featured on all three pages, the navigation bar located at the top of the page is fully responsive and includes links to the Logo, Home Page, About Us section, Gallery and Sign Up page. The navigation bar is identical in each page to allow easy navigation and provide a good user experience.
 
-  * The value of the navigation bar is that it will allow users to navigate easily from page to page. The links are consistent on each page to allow the user access to any place on the website from every page. The one exception is the about us link which brings the user to content in the middle of the home page from anywhere in the website. The Navigation bar will transform to a hamburger menu for mobile devices to allow for a better user experience.
+  * The value of the navigation bar is that it will allow users to navigate easily from page to page. The links are consistent on each page to allow the user access to any place on the website from every page. The one exception is the about us link which brings the user to content in the middle of the home page from anywhere in the website. The navigation bar will transform to a hamburger menu for mobile devices to allow for a better user experience.
 <br>
 
   ![Navigation bar](assets/images/header-nav-menu.png)
@@ -109,7 +109,7 @@ The Summer Soccer camp is an online webpage that introduces potential clients fr
 * **Client Goals**
 
   * To be able to view the site on a range of devices including a smartphone, a tablet and a laptop.
-  * To make the site informative without having to much information to allow users to easily see the essential details.
+  * To make the site informative without having too much information to allow users to easily see the essential details.
   * To provide easy navigation throughout the site so users can easily navigate to and from different pages and sections of pages.
   * To provide a simple sign up form to allow users to register in seconds.
   * To provide a method of locating the camp.
@@ -207,7 +207,7 @@ The Summer Soccer camp is an online webpage that introduces potential clients fr
 
   * The hamburger menu would not display as expected on small screen sizes. I spoke to my mentor who reviewed this issue and told me to look at my media queries overlapping. The problem was that the small screen size was being overuled by larger screen sizes which had the CSS command of display:None;. I addressed this issue by creating a minimum width media query which prevented the larger screen media query from passing down to the smaller screens. This was all achieved with assistance from my mentor.
 
-  * Tha hamburger menu was staying open on arrival to the website. The reason for this was the specificity was not properly utilized to target the menu and the command display:none; was not working as expected. I addressed this by taking the following action - header>#menu.
+  * Tha hamburger menu was staying open on arrival to the website. The reason for this was the specificity was not properly utilized to target the menu and the command display:none; was not working as expected. I addressed this by taking the following action - header>#menu rather than have all the css rules under just #menu.
 
   * The sign up form was not responsive on horizontal mobile viewing. I changed the height values to VH values for the page, the form and the text spacing to address this issue.
 <br>
@@ -389,11 +389,11 @@ To clone the summer-soccer-camp repository:
 
     * Antonio Rodriguez - My Mentor who offered his help both by appointments and outside appointment hours and never failed to point me in the right direction when I was struggling to find solutions to existing bugs.
 
-    * Code Institute Tutors - For helping me with my website positioning and most importantly for spotting an error in a file name.
+    * Code Institute Tutors - For assisint me with numerous issues throughout the project and never failing to point me in the right direction.
 
-    * Jim Sawyer - For taking the time to discuss the best way for me to successfully complete this website and for providing moral support.
+    * Jim Sawyer - For taking the time to discuss the best way for me to successfully complete this website and for providing moral support at times of hardship.
 
-    * Harsh Chandra - For helping me write JavaScript code to create a functional Hamburger Menu and for helping me learn more about flex positioning.
+    * Harsh Chandra - For helping me write JavaScript code to create a functional Hamburger Menu and for helping me increase my knowledge of flex positioning.
 
 
 
