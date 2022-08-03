@@ -20,7 +20,7 @@ The following are images of the entire site and a brief description of the value
 
   * Featured on all three pages, the navigation bar located at the top of the page is fully responsive and includes links to the Logo, Home Page, About Us section, Gallery and Sign Up page. The navigation bar is identical in each page to allow easy navigation.
 
-  * The value of the navigation bar is that it will allow users to navigate easily from page to page. The links are consistent on each page to allow the user access to any place on the website from every page. The one exception is the about us link which brings the user to content in the middle of the home page from anywhere in the website.
+  * The value of the navigation bar is that it will allow users to navigate easily from page to page. The links are consistent on each page to allow the user access to any place on the website from every page. The one exception is the about us link which brings the user to content in the middle of the home page from anywhere in the website. The Navigation bar will transform to a hamburger menu for mobile devices to allow for a better user experience.
 <br>
 
   ![Navigation bar](assets/images/header-nav-menu.png)
@@ -78,7 +78,7 @@ The following are images of the entire site and a brief description of the value
 
 * **Sign up page**
 
-  * The sign up page contains a sign up form for the camp and a background image of a football hitting a net. The input headings for each text box will display above the boxes on smaller screen sizes
+  * The sign up page contains a sign up form for the camp and a background image of a football hitting a net. The input headings for each text box will display above the boxes on smaller screen sizes.
 
   * The sign up page is of value to the user as it allows them to fill out a simple sign up form to register for the camp. The sign up form allows the user to enter their own name and the childs name. The sign up form can be submitted multiple times by the same user to allow for multiple registrations.
 <br>
@@ -206,6 +206,10 @@ The Summer Soccer camp is an online webpage that introduces potential clients fr
   * I encountered difficulty postioning in the home page with the about us section. I was using float properties at this time, I could not get the image div and the text div to display side by side. I spoke to my mentor about my positioning problems and he recommended flex positioning. I changed to using flex properties and this made it easier for me to position these elements.
 
   * The hamburger menu would not display as expected on small screen sizes. I spoke to my mentor who reviewed this issue and told me to look at my media queries overlapping. The problem was that the small screen size was being overuled by larger screen sizes which had the CSS command of display:None;. I addressed this issue by creating a minimum width media query which prevented the larger screen media query from passing down to the smaller screens. This was all achieved with assistance from my mentor.
+
+  * Tha hamburger menu was staying open on arrival to the website. The reason for this was the specificity was not properly utilized to target the menu and the command display:none; was not working as expected. I addressed this by taking the following action - header>#menu.
+
+  * The sign up form was not responsive on horizontal mobile viewing. I changed the height values to VH values for the page, the form and the text spacing to address this issue.
 <br>
 
 ## <U>**W3C Validator**</U>
@@ -371,7 +375,7 @@ To clone the summer-soccer-camp repository:
   * The image on the sign up page of a football hitting a football net was taken from [wallpaperaccess.com](https://wallpaperaccess.com/)
   * The social media icons on the footer were taken from [fontawesome.com](https://fontawesome.com/).
   * The embedded google map was taken from [googlemaps.com](https://www.google.com/maps/@53.1167628,-6.8752443,14z).
-  * The icon for the hamburger menu was taken from [icon-libarary.com](https://icon-library.com/).
+  * The icon/image for the hamburger menu was taken from [icon-libarary.com](https://icon-library.com/).
   * The quote on the home page by Mike Singletary was taken from [brainyquote.com](https://www.brainyquote.com/).
   * The images on this site were changed from there original settings using [ezgif.com](https://ezgif.com/).
   * The font for this page was set using [googlefonts.com](https://fonts.google.com/). 
