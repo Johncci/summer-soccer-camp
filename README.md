@@ -170,9 +170,9 @@ The Summer Soccer camp is an online webpage that introduces potential clients fr
   * Adding text to the social media elements on the footer to assist screen readers.
 <br>
 
-## <U>**Technologies Implemented**</U>
+## <U>**Technologies used and Implemented**</U>
 
-* The following technologies were implemented in the construction and design of this website.
+* The following technologies were used and implemented in the construction and design of this website.
 
   * HTML and CSS - To create this website.
 
@@ -189,6 +189,8 @@ The Summer Soccer camp is an online webpage that introduces potential clients fr
   * Am I Responsive? - To show the website image on a range of devices.
 
   * Ezgif.com - To optimize images.
+
+  * NVaccess.org - To test the alt and aria-lable attributes.
 <br>
 
 ## <U>**Testing and Bugs**</U>
@@ -212,6 +214,8 @@ The Summer Soccer camp is an online webpage that introduces potential clients fr
   * The sign up form was not responsive on horizontal mobile viewing. I changed the height values to VH values for the page, the form and the text spacing to address this issue.
 
   * I tested the site on a safari browser and images in the format of avif would not load , I changed these images to webp , this had a negative effect for the lighthouse score on the home page so I tested several images at different resolutions to select the best one that also had an adequate lighthouse performance score.
+
+  * I tested the alt attributes and aria-label attributes using nvaccess.org and when I hovered over all images and social media icons on the page they were read out in audio description.
 <br>
 
 ## <U>**W3C Validator**</U>
@@ -365,7 +369,7 @@ To clone the summer-soccer-camp repository:
 
   * I began this project using float properties but I then learned of an easier way to position items using flex. I learned how to apply [Flex Positioning](https://www.w3schools.com/css/css3_flexbox.asp) at W3C schools.
 
-  * The idea for the code to create the aria-labels for images in the CSS file was provided to me by tutor support who suggested a a website where i could leanr how to do this. The website I accessed to write the code for the aria-label is [davidmacd.com](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html).
+  * The idea for the code to create the aria-labels for images in the CSS file was provided to me by tutor support who suggested a a website where I could learn how to do this. The website I accessed to write the code for the aria-label is [davidmacd.com](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html).
 <br>
 
 ### **Media**
@@ -383,6 +387,7 @@ To clone the summer-soccer-camp repository:
   * The quote on the home page by Mike Singletary was taken from [brainyquote.com](https://www.brainyquote.com/).
   * The images on this site were changed from there original settings using [ezgif.com](https://ezgif.com/).
   * The font for this page was set using [googlefonts.com](https://fonts.google.com/). 
+  * The alt and aria-label attributes were tested using [NVaccess.org](https://www.nvaccess.org/download/).
 
   All media listed above was used with the permission of the owner.
 <br>
