@@ -287,9 +287,9 @@ The Summer Soccer camp is an online webpage that introduces potential clients fr
 The following images in this section are displayed as lighthouse desktop as the first image and lighthouse mobile as the second image.
 <br>
 
-1. The image below displays the lighthouse desktop score for the home page. The performance score was diplaying as 75 on a mobile device and 86 on a desktop device. I consulted with my mentor about the score and he informed me the size of the main image was having a negative impact on performance score.
+1. The image below displays the lighthouse desktop score for the home page. The performance score was diplaying as 75 on a mobile device and 86 on a desktop device. I consulted with my mentor about the score and he informed me the size of the main image was having a negative impact on the performance score.
 
-2. I used the website [ezgif.com](https://ezgif.com/) to address this problem. I resized image and this increased the performance score to 99 on the desktop devices and 94 on the mobile devices. The increase in score came directly as a result of these changes as confirmed through retesting. I then had to change the image format again as the format of avif for images is not compatible with safari browsers and the new mobile lighthouse score was 90.
+2. I used the website [ezgif.com](https://ezgif.com/) to address this problem. I resized the image and this increased the performance score to 99 on the desktop devices and 94 on the mobile devices. The increase in score came directly as a result of these changes as confirmed through retesting. I then had to change the image format again as the format of avif for images is not compatible with safari browsers and the new mobile lighthouse score was 90.
 
 ![Lighthouse home desktop score](assets/images/lighthouse-desktop-home.png)
 
@@ -363,9 +363,9 @@ To clone the summer-soccer-camp repository:
 
   * The JavaScript used for the hamburger menu on smaller screen sizes was written by Harsh Chandra a software developer. I wanted the burger menu for smaller screen sizes but I did not have the knowledge to accomplish it by myself. I personally wrote the CSS and HTML for the hamburger menu with assistance from Harsh Chandra.
 
-  * The began this project using float properties but I then learned of an easier way to position items using flex. I learned how to apply [Flex Positioning](https://www.w3schools.com/css/css3_flexbox.asp) at W3C schools.
+  * I began this project using float properties but I then learned of an easier way to position items using flex. I learned how to apply [Flex Positioning](https://www.w3schools.com/css/css3_flexbox.asp) at W3C schools.
 
-  * The idea for the code to create the aria-labels for images in the CSS file was provided to me by tutor support. The website I accessed to write the code for the aria-label is [davidmacd.com](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html).
+  * The idea for the code to create the aria-labels for images in the CSS file was provided to me by tutor support who suggested a a website where i could leanr how to do this. The website I accessed to write the code for the aria-label is [davidmacd.com](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html).
 <br>
 
 ### **Media**
@@ -375,7 +375,7 @@ To clone the summer-soccer-camp repository:
   * The image on the gallery page of the child tying the laces on his football boots is from [pexels.com](https://www.pexels.com/).
   * The image on the gallery page of the coach instructing children is from [unsplash.com](https://unsplash.com/).
   * The image on the gallery page of children playing soccer together is from [freeimages.com](https://www.freeimages.com/).
-  * The image on the gallery page of a ball being kicked towards the goalkeeper id from [freeimages.com](https://www.freeimages.com/).
+  * The image on the gallery page of a ball being kicked towards the goalkeeper is from [freeimages.com](https://www.freeimages.com/).
   * The image on the sign up page of a football hitting a football net was taken from [wallpaperaccess.com](https://wallpaperaccess.com/)
   * The social media icons on the footer were taken from [fontawesome.com](https://fontawesome.com/).
   * The embedded google map was taken from [googlemaps.com](https://www.google.com/maps/@53.1167628,-6.8752443,14z).
@@ -395,7 +395,7 @@ To clone the summer-soccer-camp repository:
 
     * Code Institute Tutors - For assisting me with various issues throughout the project and never failing to point me in the right direction.
 
-    * Jim Sawyer - For taking the time to discuss the best way for me to successfully complete this website and for providing moral support at times of hardship.
+    * Lane Sawyer - For taking the time to discuss the best way for me to successfully complete this website and for providing moral support at times of hardship.
 
     * Harsh Chandra - For helping me write JavaScript code to create a functional Hamburger Menu and for helping me increase my knowledge of flex positioning.
 
