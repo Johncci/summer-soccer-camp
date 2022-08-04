@@ -37,7 +37,7 @@ nav ul {
 
 /*-- Hamburger menu assistance from Harsh Chandra in creating menu --*/
 
-#menu {
+header>#menu {
     width: 250px;
     min-height: 250px;
     position: absolute;
@@ -92,7 +92,7 @@ a:hover {
     width: 100%;
     overflow: hidden;
     background-color: #ccff99;
-    background: url(../images/main-image-home.webp) no-repeat center center;
+    background: url(../images/main-image.webp) no-repeat center center;
     background-position: center;
     background-size: cover;
     display: flex;
@@ -227,7 +227,7 @@ i:hover {
     justify-content: center;
     align-items: center;
     width: 100%;
-    background: url(../images/signup-image.avif) no-repeat center center;
+    background: url(../images/sign-up-image.webp) no-repeat center center;
     min-height: 100vh;
     background-color: #ccff99;
 
