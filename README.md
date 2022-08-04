@@ -83,7 +83,7 @@ The following are images of the entire site and a brief description of the value
   * The sign up page is of value to the user as it allows them to fill out a simple sign up form to register for the camp. The sign up form allows the user to enter their own name and the childs name. The sign up form can be submitted multiple times by the same user to allow for multiple registrations.
 <br>
 
-  ![Sign up form](assets/images/sign-up.png)
+  ![Sign up form](assets/images/signup-image-readme.png)
 <br>
 
 ## <u>**User Experience**</u>
@@ -163,7 +163,7 @@ The Summer Soccer camp is an online webpage that introduces potential clients fr
 
   * Using semantic HTML.
 
-  * Using alt attribute with images on the site. There are two exceptions to the use of alt attributes. The first is the main image on the home page which has a text circle inserted to assist screen readers and the background image on the sign up page which is there for background decorative purposes.
+  * Using alt attribute with images on the site or aria-labels in the cases where the images were placed in the CSS file. The method of achieving this is displayed in the credits of this readme.md file.
 
   * Ensuring sufficent colour contrast throughout the site.
 
@@ -210,6 +210,8 @@ The Summer Soccer camp is an online webpage that introduces potential clients fr
   * Tha hamburger menu was staying open on arrival to the website. The reason for this was the specificity was not properly utilized to target the menu and the command display:none; was not working as expected. I addressed this by taking the following action - header>#menu rather than have all the css rules under just #menu.
 
   * The sign up form was not responsive on horizontal mobile viewing. I changed the height values to VH values for the page, the form and the text spacing to address this issue.
+
+  * I tested the site on a safari browser and images in the format of avif would not load , I changed these images to webp , this had a negative effect for the lighthouse score on the home page so I tested several images at different resolutions to select the best one that also had an adequate lighthouse performance score.
 <br>
 
 ## <U>**W3C Validator**</U>
@@ -287,7 +289,7 @@ The following images in this section are displayed as lighthouse desktop as the 
 
 1. The image below displays the lighthouse desktop score for the home page. The performance score was diplaying as 75 on a mobile device and 86 on a desktop device. I consulted with my mentor about the score and he informed me the size of the main image was having a negative impact on performance score.
 
-2. I used the website [ezgif.com](https://ezgif.com/) to address this problem. I resized image and this increased the performance score to 99 on the desktop devices and 94 on the mobile devices. The increase in score came directly as a result of these changes as confirmed through retesting.
+2. I used the website [ezgif.com](https://ezgif.com/) to address this problem. I resized image and this increased the performance score to 99 on the desktop devices and 94 on the mobile devices. The increase in score came directly as a result of these changes as confirmed through retesting. I then had to change the image format again as the format of avif for images is not compatible with safari browsers and the new mobile lighthouse score was 90.
 
 ![Lighthouse home desktop score](assets/images/lighthouse-desktop-home.png)
 
@@ -362,6 +364,8 @@ To clone the summer-soccer-camp repository:
   * The JavaScript used for the hamburger menu on smaller screen sizes was written by Harsh Chandra a software developer. I wanted the burger menu for smaller screen sizes but I did not have the knowledge to accomplish it by myself. I personally wrote the CSS and HTML for the hamburger menu with assistance from Harsh Chandra.
 
   * The began this project using float properties but I then learned of an easier way to position items using flex. I learned how to apply [Flex Positioning](https://www.w3schools.com/css/css3_flexbox.asp) at W3C schools.
+
+  * The idea for the code to create the aria-labels for images in the CSS file was provided to me by tutor support. The website I accessed to write the code for the aria-label is [davidmacd.com](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html).
 <br>
 
 ### **Media**
@@ -389,7 +393,7 @@ To clone the summer-soccer-camp repository:
 
     * Antonio Rodriguez - My Mentor who offered his help both by appointments and outside appointment hours and never failed to point me in the right direction when I was struggling to find solutions to existing bugs.
 
-    * Code Institute Tutors - For assisint me with numerous issues throughout the project and never failing to point me in the right direction.
+    * Code Institute Tutors - For assisting me with various issues throughout the project and never failing to point me in the right direction.
 
     * Jim Sawyer - For taking the time to discuss the best way for me to successfully complete this website and for providing moral support at times of hardship.
 

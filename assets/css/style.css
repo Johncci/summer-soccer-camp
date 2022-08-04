@@ -57,7 +57,6 @@ header>#menu {
     justify-content: space-around;
     align-items: center;
     width: 100%;
-
 }
 
 #menu ul li {
@@ -65,7 +64,6 @@ header>#menu {
     background-color: #ccff99;
     border-radius: 10px;
     margin: 5px;
-
 }
 
 #hamburger-icon {
@@ -230,13 +228,11 @@ i:hover {
     background: url(../images/sign-up-image.webp) no-repeat center center;
     min-height: 100vh;
     background-color: #ccff99;
-
 }
 
 .text-input {
     line-height: 20px;
     padding-left: 4px;
-
 }
 
 .signup-form form {
@@ -251,10 +247,6 @@ i:hover {
     margin: 20px 0;
 }
 
-.signup-form h2 {
-    width: 250px;
-    margin: 20px;
-}
 
 /*--sign up button code from W3C schools--*/
 
