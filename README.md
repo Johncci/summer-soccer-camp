@@ -203,7 +203,7 @@ The Summer Soccer camp is an online webpage that introduces potential clients fr
 
   * The lighthouse test on developer tools is displaying a score of 75 for performance on the mobile home page test. I discussed this with my mentor and the possible explanation is the size of the main image and reached a conclusion which I discuss in the lighthouse section later in this readme.md file.
 
-  * The form name element in the input id for parent did not have sufficient indiviual detail as highlighted by my mentor. This was causing a problem when submitting the form as there are two submission fields for parent/guardian and child.
+  * The form name element in the input id for parent did not have sufficient indiviual detail as highlighted by my mentor. This was causing a problem when submitting the form as there are two submission fields for parent/guardian and child. I added extra detail to the form name element and the form worked as expected.
 
   * I encountered difficulty postioning in the home page with the about us section. I was using float properties at this time, I could not get the image div and the text div to display side by side. I spoke to my mentor about my positioning problems and he recommended flex positioning. I changed to using flex properties and this made it easier for me to position these elements.
 
@@ -215,16 +215,16 @@ The Summer Soccer camp is an online webpage that introduces potential clients fr
 
   * I tested the site on a safari browser and images in the format of avif would not load , I changed these images to webp , this had a negative effect for the lighthouse score on the home page so I tested several images at different resolutions to select the best one that also had an adequate lighthouse performance score.
 
-  * I tested the alt attributes and aria-label attributes using nvaccess.org and when I hovered over all images and social media icons on the page they were read out in audio description.
+  * I tested the alt attributes and aria-label attributes using nvaccess.org and when I hovered over all images and social media icons on the page they were read out in audio description. I was aware that the manner in which i used the aria-labels inside the divs could cause issues to a screen reader and there did not seem to be a general rule on if it would or would not cause a problem. The only way to confirm they worked was to test them using nvaccess.org. I completed this test and they worked as expected.
 <br>
 
 ## <U>**W3C Validator**</U>
 
 * The W3C validator was used to to validate the html on all pages of this website. No errors were returned when passing through the W3C validator.
  
-  * [Home Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-summersoccercam-cxc6mhus2ku.ws-eu54.gitpod.io%2Findex.html%23home)
-  * [Gallery Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-summersoccercam-cxc6mhus2ku.ws-eu54.gitpod.io%2Fgallery.html)
-  * [Sign Up Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-summersoccercam-cxc6mhus2ku.ws-eu54.gitpod.io%2Fsignup.html)
+  * [Home Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-summersoccercam-cxc6mhus2ku.ws-eu59.gitpod.io%2Findex.html%23home)
+  * [Gallery Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-summersoccercam-cxc6mhus2ku.ws-eu59.gitpod.io%2Fgallery.html)
+  * [Sign Up Page HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2F8000-johncci-summersoccercam-cxc6mhus2ku.ws-eu59.gitpod.io%2Fsignup.html)
 <br>
 
 * The official Jigsaw Validator was used to validate the CSS on the website. No errors were found when passing through the Jigsaw validator.
