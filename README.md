@@ -9,6 +9,8 @@ The Summer Soccer Camp website is aimed at both parents and their children. The 
 
 ![Am I responsive website image](assets/images/am-i-responsive.png)
 <br>
+[View Summer Soccer Camp on Github Pages](https://johncci.github.io/summer-soccer-camp/)
+
 
 ## <u>**Features**</u> ##
 
